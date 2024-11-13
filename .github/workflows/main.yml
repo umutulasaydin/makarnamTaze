@@ -31,4 +31,4 @@ jobs:
           ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
 
           # SCP to copy files to the server
-          scp -r ./path/to/your/files $SERVER_USER@$SERVER_IP:$SERVER_PATH
+          scp -r ./* $SERVER_USER@$SERVER_IP:$SERVER_PATH
