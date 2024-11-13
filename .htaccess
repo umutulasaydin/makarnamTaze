@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^$ /menu [R=301,L]
