@@ -3,7 +3,7 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - main  # or the branch you want to deploy from
+      - main  # Replace with your desired branch
 
 jobs:
   deploy:
@@ -13,14 +13,25 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Copy files to server
+    - name: Copy files to server using SCP
       env:
         SERVER_USER: ${{ secrets.SERVER_USER }}
         SERVER_IP: ${{ secrets.SERVER_IP }}
         SERVER_PATH: ${{ secrets.SERVER_PATH }}
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       run: |
-        echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+        # Start the SSH agent
+        eval $(ssh-agent -s)
+        
+        # Add the private key from GitHub secrets
+        echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+
+        # Verify that the key is loaded
+        ssh-add -l
+
+        # Add the server to known_hosts to prevent SSH warnings
         mkdir -p ~/.ssh
         ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
+
+        # Use SCP to copy files to the server
         scp -r ./path/to/your/files $SERVER_USER@$SERVER_IP:$SERVER_PATH
