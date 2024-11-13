@@ -1,0 +1,8 @@
+SU (500 ml);/assets/su.webp;25
+SODA (200 ml);/assets/soda.jpeg;35
+ÇÖRÇİL (200 ml);;70
+ÖZERHİSAR AYRAN (245 ml);/assets/ayran.png;70
+KOLA (Şişe 300 ml / Kutu 350 ml);/assets/kola.jpg;70
+SPRITE (Şişe 300 ml / Kutu 350 ml);/assets/sprite.jpg;70
+FUSETEA (Şişe 300 ml / Kutu 350 ml);/assets/fusetea.jpg;70
+LİMONATA (330 ml);;100

@@ -1,0 +1,2 @@
+MINCE MEAT;;Portion;110;500 gr;330;Served with minced beef and parsley.
+CHEESE;;Portion;110;500 gr;330;Served with Ezine Feta Cheese and Parsley.

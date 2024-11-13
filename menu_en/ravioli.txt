@@ -1,0 +1,4 @@
+MINCED MEAT;;Small (25 pieces);282;Normal (30 pieces);350;Additional (5 pieces);58;Served with Minced Meat, Panko and Spices.
+SPINACH CHEESE;;Small (25 pieces);282;Normal (30 pieces);350;Additional (5 pieces);58;Served with Spinach, Mascarpone, Parmesan.
+POTATO MUSHROOM;;Small (25 pieces);282;Normal (30 pieces);350;Additional (5 pieces);58;Served with Potatoes, Champignon Mushrooms, Caramelized Onions and Spices.
+FRIED MINCED MEAT;;Small (25 pieces);292;Normal (30 pieces);370;Additional (5 pieces);60;Served with Minced Meat, Panko and Spices.

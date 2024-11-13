@@ -1,0 +1,4 @@
+KIYMALI;;Küçük (25 adet);282;Normal (30 adet);350;İlave (5 adet);58;Kıyma, Panko ve baharatlar ile servis edilir.
+ISPANAKLI PEYNİRLİ;;Küçük (25 adet);282;Normal (30 adet);350;İlave (5 adet);58;Ispanak, Mascarpone peyniri, Parmesan peyniri ile servis edilir.
+PATATES MANTARLI;;Küçük (25 adet);282;Normal (30 adet);350;İlave (5 adet);58;Patates, Kestane mantarı, Karamelize soğan ve baharatlar ile servis edilir
+KIZARMIŞ KIYMALI;;Küçük (25 adet);292;Normal (30 adet);370;İlave (5 adet);60;Kıyma, panko ve baharatlar ile servis edilir.
