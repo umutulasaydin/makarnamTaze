@@ -3,24 +3,32 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - main  # or the branch you want to deploy from
+      - main  # Or whatever branch you want to trigger the deployment
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Copy files to server
-      env:
-        SERVER_USER: ${{ secrets.SERVER_USER }}
-        SERVER_IP: ${{ secrets.SERVER_IP }}
-        SERVER_PATH: ${{ secrets.SERVER_PATH }}
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      run: |
-        echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-        mkdir -p ~/.ssh
-        ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
-        scp -r ./path/to/your/files $SERVER_USER@$SERVER_IP:$SERVER_PATH
+      - name: Set up SSH and deploy files
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+          SERVER_PATH: ${{ secrets.SERVER_PATH }}
+        run: |
+          # Start the SSH agent
+          eval $(ssh-agent -s)
+
+          # Add the private key from GitHub Secrets
+          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+
+          # Add the server to known_hosts to avoid SSH warnings
+          mkdir -p ~/.ssh
+          ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
+
+          # SCP to copy files to the server
+          scp -r ./path/to/your/files $SERVER_USER@$SERVER_IP:$SERVER_PATH
