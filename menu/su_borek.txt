@@ -1,2 +1,2 @@
-KIYMALI;;Porsiyon;110;500 gr;330;Dana Kıyma ve Maydanoz ile servis edilir.
-PEYNİRLİ;;Porsiyon;110;500 gr;330;Ezine Beyaz Peynir ve Maydanoz ile servis edilir.
+KIYMALI;/assets/kıyma-su.jpg;Porsiyon;110;500 gr;330;Dana Kıyma ve Maydanoz ile servis edilir.
+PEYNİRLİ;/assets/peynirli-su.jpg;Porsiyon;110;500 gr;330;Ezine Beyaz Peynir ve Maydanoz ile servis edilir.
