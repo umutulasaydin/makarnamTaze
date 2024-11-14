@@ -93,10 +93,11 @@ h3 {
 
 
 .item-image {
-    width: 150px;
+    width: 300px;
     /* Adjust size as needed */
     height: auto;
     margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 .menu-item {
