@@ -6,6 +6,6 @@ MAMA MEATBALLS;;Small (100 gr.);263;Normal (150 gr.);308;Additional (50 gr.);72;
 CHAMPIGNON MUSHROOM;;Small (100 gr.);263;Normal (150 gr.);308;Additional (50 gr.);72;Served with Champignon Mushroom 100/150/200 gr. , Cream.
 4 CHEESE;;Small (100 gr.);263;Normal (150 gr.);308;Additional (50 gr.);72;Served with Roquefort, Mihalic, Parmesan, Mozzarella Cheese in Water, Cream.
 BASIL PESTO;;Small (100 gr.);263;Normal (150 gr.);308;Additional (50 gr.);72;Served with Basil, Pine Nuts, Parmesan, Olive Oil, Cream.
-ALFREDO;;Small (100 gr.);263;Normal (150 gr.);308;Additional (50 gr.);72;Served with Chicken Leg 60/80/100 gr. , Mushroom, Cream.
+ALFREDO;/assets/alfredo.jpg;Small (100 gr.);263;Normal (150 gr.);308;Additional (50 gr.);72;Served with Chicken Leg 60/80/100 gr. , Mushroom, Cream.
 TUNA;;Small (100 gr.);270;Normal (150 gr.);322;Additional (50 gr.);89;Served with Canned Tuna 50/75/165 gr. , Milk Corn, Pickles and Cream.
 BRAISED MEAT;;Small (100 gr.);320;Normal (150 gr.);362;Additional (50 gr.);104;Served with 50/75/100 gr. Braised Meat, Pepper, Mushroom and Cream.
