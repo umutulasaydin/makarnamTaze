@@ -1,8 +1,0 @@
-WATER (500 ml);/assets/su.webp;25
-SODA (200 ml);/assets/soda.jpeg;35
-CHURCILL (200 ml);;70
-OZERHISAR AYRAN (245 ml);/assets/ayran.png;70
-COKE (Bottle 300 ml / Can 350 ml);/assets/kola.jpg;70
-SPRITE (Bottle 300 ml / Can 350 ml);/assets/sprite.jpg;70
-FUSETEA (Bottle 300 ml / Can 350 ml);/assets/fusetea.jpg;70
-LEMONADE (330 ml);;100
