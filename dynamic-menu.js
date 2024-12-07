@@ -117,7 +117,7 @@ function renderPage(data, lang) {
                     sizePriceContent.className = "size-price-pair";
                     sizePriceContent.innerHTML = `
                         <span>${section.sizes[sizeKey].name} ${section.sizes[sizeKey].size}</span>
-                        <span>₺${product[sizeKey]}</span>
+                        <span>₺${data.prices[product[sizeKey]]}</span>
                     `;
                     priceContent.appendChild(sizePriceContent);
                 });
