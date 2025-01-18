@@ -4,50 +4,53 @@
         "phone": "+90 533 399 95 67"
     },
     "prices": {
-        "ucuz_small": 204,
-        "ucuz_medium": 238,
-        "ucuz_additional": 50,
-        "orta_small": 263,
-        "orta_medium": 308,
-        "orta_additional": 72,
-        "ton_small": 270,
-        "ton_medium": 322,
-        "ton_additional": 89,
-        "kavurma_small": 320,
-        "kavurma_medium": 362,
-        "kavurma_additional": 104,
-        "ravioli_ucuz_small": 204,
-        "ravioli_ucuz_medium": 238,
-        "ravioli_ucuz_additional": 50,
-        "ravioli_pahali_small": 292,
-        "ravioli_pahali_medium": 370,
-        "ravioli_pahali_additional": 60,
+        "ucuz_small": 240,
+        "ucuz_medium": 280,
+        "ucuz_additional": 40,
+        "orta_small": 310,
+        "orta_medium": 360,
+        "orta_additional": 50,
+        "ton_small": 315,
+        "ton_medium": 380,
+        "ton_additional": 105,
+        "kavurma_small": 370,
+        "kavurma_medium": 430,
+        "kavurma_additional": 60,
+        "ravioli_ucuz_small": 310,
+        "ravioli_ucuz_medium": 375,
+        "ravioli_ucuz_additional": 60,
+        "ravioli_pahali_small": 350,
+        "ravioli_pahali_medium": 420,
+        "ravioli_pahali_additional": 70,
         "sos": 25,
-        "su_borek_porsiyon": 110,
-        "su_borek_half": 330,
+        "su_borek_porsiyon": 130,
+        "su_borek_half": 390,
         "ilave_kestane": 30,
         "ilave_parmesan": 40,
-        "ilave_pesto": 45,
-        "ilave_tavuk": 45,
+        "ilave_pesto": 50,
+        "ilave_tavuk": 40,
         "ilave_kavurma": 60,
-        "dondurma": 85,
-        "gurme_dondurma": 120,
-        "tiramisu": 140,
-        "su": 25,
-        "soda": 35,
-        "corcil": 70,
-        "ayran": 70,
-        "kola": 70,
+        "dondurma": 90,
+        "gurme_dondurma": 150,
+        "tiramisu": 150,
+        "su": 30,
+        "soda": 40,
+        "meyveli_soda": 45,
+        "corcil": 80,
+        "ayran": 85,
+        "kola": 80,
         "limonata": 100,
-        "turk_kahvesi": 65,
-        "espresso": 50,
-        "double_espresso": 65,
-        "americano": 75
+        "mini": 50,
+        "turk_kahvesi": 80,
+        "espresso": 60,
+        "double_espresso": 80,
+        "americano": 90,
+        "cay": 40
     },
     "tr": {
         "header-info": "Tüm ürünlerimizde sızma zeytinyağı, tereyağ bulunmaktadır.",
         "footer-info": "Fiyatlarımıza KDV ve tüm vergiler dahildir.",
-        "footer-info2": "Fiyat değiştirme tarihi 12/11/2024",
+        "footer-info2": "Fiyat değiştirme tarihi 18/01/2025",
         "footer-img-url": "/assets/yerli-uretim.png",
         "sections": {
             "makarna": {
@@ -324,7 +327,7 @@
                 },
                 "products": {
                     "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "DONDURMA (TUZLU KARAMEL / ÇİKOLATA / ÇİLEK) (120 gr)",
+                        "name": "DONDURMA (120 gr)",
                         "portion": "dondurma",
                         "image": "/assets/dondurma.jpg",
                         "description": ""
@@ -365,6 +368,30 @@
                         "image": "/assets/soda.jpeg",
                         "description": ""
                     },
+                    "meyveli": {
+                        "name": "MEYVELİ SODA (200 ml)",
+                        "portion": "meyveli_soda",
+                        "image": "/assets/soda.jpeg",
+                        "description": ""
+                    },
+                    "mini_kola": {
+                        "name": "MİNİ KOLA (Şişe 200 ml)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
+                    "mini_sprite": {
+                        "name": "MİNİ SPRITE (Şişe 200 ml)",
+                        "portion": "kola",
+                        "image": "/assets/sprite.jpg",
+                        "description": ""
+                    },
+                    "mini_fanta": {
+                        "name": "MİNİ FANTA (Şişe 200 ml)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
                     "corcil": {
                         "name": "ÇÖRÇİL (200 ml)",
                         "portion": "corcil",
@@ -387,6 +414,12 @@
                         "name": "SPRITE (Şişe 300 ml / Kutu 350 ml)",
                         "portion": "kola",
                         "image": "/assets/sprite.jpg",
+                        "description": ""
+                    },
+                    "fanta": {
+                        "name": "FANTA (Şişe 300 ml / Kutu 350 ml)",
+                        "portion": "kola",
+                        "image": "",
                         "description": ""
                     },
                     "fusetea": {
@@ -413,6 +446,12 @@
                     }
                 },
                 "products": {
+                    "cay": {
+                        "name": "ÇAY",
+                        "portion": "cay",
+                        "image": "",
+                        "description": ""
+                    },
                     "turk_kahvesi": {
                         "name": "TÜRK KAHVESİ",
                         "portion": "turk_kahvesi",
