@@ -483,7 +483,7 @@
     "en": {
         "header-info": "All our products contain olive oil and butter.",
         "footer-info": "Our prices include VAT and all taxes.",
-        "footer-info2": "Price change date 12/11/2024",
+        "footer-info2": "Price change date 18/01/2025",
         "footer-img-url": "/assets/yerli-uretim.png",
         "sections": {
             "makarna": {
@@ -760,7 +760,7 @@
                 },
                 "products": {
                     "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "ICE CREAM (SALTED CARAMEL / CHOCOLATE / STRAWBERRY) (120 gr)",
+                        "name": "ICE CREAM (120 gr)",
                         "portion": "dondurma",
                         "image": "/assets/dondurma.jpg",
                         "description": ""
@@ -801,6 +801,30 @@
                         "image": "/assets/soda.jpeg",
                         "description": ""
                     },
+                    "meyveli_soda": {
+                        "name": "FRUIT SODA (200 ml)",
+                        "portion": "meyveli_soda",
+                        "image": "/assets/soda.jpeg",
+                        "description": ""
+                    },
+                    "mini_kola": {
+                        "name": "MINI COKE (Bottle 200 ml)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
+                    "mini_sprite": {
+                        "name": "MINI SPRITE (Bottle 200 ml)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
+                    "mini_fanta": {
+                        "name": "MINI FANTA (Bottle 200 ml)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
                     "corcil": {
                         "name": "CHURCHILL (200 ml)",
                         "portion": "corcil",
@@ -823,6 +847,12 @@
                         "name": "SPRITE (Bottle 300 ml / Can 350 ml)",
                         "portion": "kola",
                         "image": "/assets/sprite.jpg",
+                        "description": ""
+                    },
+                    "fanta": {
+                        "name": "FANTA (Bottle 300 ml / Can 350 ml)",
+                        "portion": "kola",
+                        "image": "",
                         "description": ""
                     },
                     "fusetea": {
@@ -849,6 +879,12 @@
                     }
                 },
                 "products": {
+                    "cay": {
+                        "name": "TEA",
+                        "portion": "cay",
+                        "image": "",
+                        "description": ""
+                    },
                     "turk_kahvesi": {
                         "name": "TURKISH COFFEE",
                         "portion": "turk_kahvesi",
@@ -1157,7 +1193,7 @@
                 },
                 "products": {
                     "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "Мороженое (СОЛЕНАЯ КАРАМЕЛЬ / ШОКОЛАД / КЛУБНИКА) (120 г)",
+                        "name": "Мороженое (120 г)",
                         "portion": "dondurma",
                         "image": "/assets/dondurma.jpg",
                         "description": ""
@@ -1198,6 +1234,30 @@
                         "image": "/assets/soda.jpeg",
                         "description": ""
                     },
+                    "meyveli_soda": {
+                        "name": "ФРУКТОВАЯ СОДА (200 мл)",
+                        "portion": "meyveli_soda",
+                        "image": "/assets/soda.jpeg",
+                        "description": ""
+                    },
+                    "mini_kola": {
+                        "name": "МИНИ КОКА-КОЛА (Бутылка 200 мл)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
+                    "mini_sprite": {
+                        "name": "МИНИ СПРАЙТ (Бутылка 200 мл)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
+                    "mini_fanta": {
+                        "name": "МИНИ ФАНТА (Бутылка 200 мл)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
                     "corcil": {
                         "name": "ЧЕРЧИЛЛ (200 мл)",
                         "portion": "corcil",
@@ -1220,6 +1280,12 @@
                         "name": "СПРАЙТ (Бутылка 300 мл / Банка 350 мл)",
                         "portion": "kola",
                         "image": "/assets/sprite.jpg",
+                        "description": ""
+                    },
+                    "fanta": {
+                        "name": "ФАНТА (Бутылка 300 мл / Банка 350 мл)",
+                        "portion": "kola",
+                        "image": "",
                         "description": ""
                     },
                     "fusetea": {
@@ -1246,6 +1312,12 @@
                     }
                 },
                 "products": {
+                    "cay": {
+                        "name": "ЧАЙ",
+                        "portion": "cay",
+                        "image": "",
+                        "description": ""
+                    },
                     "turk_kahvesi": {
                         "name": "ТУРЕЦКИЙ КОФЕ",
                         "portion": "turk_kahvesi",
@@ -1277,7 +1349,7 @@
     "ar": {
         "header-info": "جميع منتجاتنا تحتوي على زيت الزيتون والزبدة.",
         "footer-info": "أسعارنا تشمل ضريبة القيمة المضافة وجميع الضرائب.",
-        "footer-info2": "تاريخ تغيير الأسعار 12/11/2024",
+        "footer-info2": "تاريخ تغيير الأسعار 18/01/2025",
         "footer-img-url": "/assets/yerli-uretim.png",
         "sections": {
             "makarna": {
@@ -1554,7 +1626,7 @@
                 },
                 "products": {
                     "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "آيس كريم (كراميل مملح / شوكولاتة / فراولة) (120 غ)",
+                        "name": "آيس كريم (120 غ)",
                         "portion": "dondurma",
                         "image": "/assets/dondurma.jpg",
                         "description": ""
@@ -1595,6 +1667,30 @@
                         "image": "/assets/soda.jpeg",
                         "description": ""
                     },
+                    "meyveli_soda": {
+                        "name": "صودا الفواكه (200 مل)",
+                        "portion": "meyveli_soda",
+                        "image": "/assets/soda.jpeg",
+                        "description": ""
+                    },
+                    "mini_kola": {
+                        "name": "كوكا كولا ميني (زجاجة 200 مل)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
+                    "mini_sprite": {
+                        "name": "سبرايت ميني (زجاجة 200 مل)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
+                    "mini_fanta": {
+                        "name": "فانتا ميني (زجاجة 200 مل)",
+                        "portion": "kola",
+                        "image": "",
+                        "description": ""
+                    },
                     "corcil": {
                         "name": "تشرتشل (200 مل)",
                         "portion": "corcil",
@@ -1617,6 +1713,12 @@
                         "name": "سبرايت (زجاجة 300 مل / علبة 350 مل)",
                         "portion": "kola",
                         "image": "/assets/sprite.jpg",
+                        "description": ""
+                    },
+                    "fanta": {
+                        "name": "فانتا (زجاجة 300 مل / علبة 350 مل)",
+                        "portion": "kola",
+                        "image": "",
                         "description": ""
                     },
                     "fusetea": {
@@ -1643,6 +1745,12 @@
                     }
                 },
                 "products": {
+                    "cay": {
+                        "name": "شاي",
+                        "portion": "cay",
+                        "image": "",
+                        "description": ""
+                    },
                     "turk_kahvesi": {
                         "name": "قهوة تركية",
                         "portion": "turk_kahvesi",
