@@ -47,1734 +47,878 @@
         "americano": 90,
         "cay": 40
     },
-    "tr": {
-        "header-info": "Tüm ürünlerimizde sızma zeytinyağı, tereyağ bulunmaktadır.",
-        "footer-info": "Fiyatlarımıza KDV ve tüm vergiler dahildir.",
-        "footer-info2": "Fiyat değiştirme tarihi 18/01/2025",
-        "footer-img-url": "/assets/yerli-uretim.png",
-        "sections": {
-            "makarna": {
-                "name": "Makarna",
-                "href": "pasta",
-                "info": "Makarnalarımızda parmesan peyniri (Grana Padano) üzerine ilave edilmektedir.",
-                "sizes": {
-                    "small": {
-                        "name": "Küçük",
-                        "size": "100 gr"
+    "header-info": {
+        "tr": "Tüm ürünlerimizde sızma zeytinyağı, tereyağ bulunmaktadır.",
+        "en": "All our products contain olive oil and butter.",
+        "ru": "Все наши продукты содержат оливковое масло и масло.",
+        "ar": "جميع منتجاتنا تحتوي على زيت الزيتون والزبدة."
+    },
+    "footer-info": {
+        "tr": "Fiyatlarımıza KDV ve tüm vergiler dahildir.",
+        "en": "Our prices include VAT and all taxes.",
+        "ru": "Наши цены включают НДС и все налоги.",
+        "ar": "تشمل أسعارنا ضريبة القيمة المضافة وجميع الضرائب."
+    },
+    "footer-info2": {
+        "tr": "Fiyat değişiklik tarihi 18/01/2025",
+        "en": "Price change date 18/01/2025",
+        "ru": "Дата изменения цены 18/01/2025",
+        "ar": "تاريخ تغيير السعر 18/01/2025"
+    },
+    "footer-img-url": "/assets/yerli-uretim.png",
+    "sections": {
+        "makarna": {
+            "name": {
+                "tr": "Makarna",
+                "en": "Pasta",
+                "ru": "Макароны",
+                "ar": "معكرونة"
+            },
+            "href": "pasta",
+            "info": {
+                "tr": "Makarnalarımızda parmesan peyniri (Grana Padano) üzerine ilave edilmektedir.",
+                "en": "Our pastas are served with parmesan cheese (Grana Padano) on top.",
+                "ru": "Наши макароны подаются с пармезанским сыром (Грана Падано) сверху.",
+                "ar": "تُقدّم مكروناتنا مع جبنة بارميزان (غرانا بادانو) فوقها."
+            },
+            "sizes": {
+                "small": {
+                    "name": {
+                        "tr": "Küçük",
+                        "en": "Small",
+                        "ru": "Маленький",
+                        "ar": "صغير"
                     },
-                    "medium": {
-                        "name": "Orta",
-                        "size": "150 gr"
-                    },
-                    "additional": {
-                        "name": "İlave",
-                        "size": "50 gr"
+                    "size": {
+                        "tr": "100 gr",
+                        "en": "100 gr",
+                        "ru": "100 гр",
+                        "ar": "100 جرام"
                     }
                 },
-                "products": {
-                    "napolitan": {
-                        "name": "NAPOLITAN",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/napolitan.jpg",
-                        "description": "Yeşil Zeytin, Siyah Zeytin, Kekik, Balzamik, Sirke, Domates Sosumuz ile servis edilir."
+                "medium": {
+                    "name": {
+                        "tr": "Orta",
+                        "en": "Medium",
+                        "ru": "Средний",
+                        "ar": "متوسط"
                     },
-                    "arabiata": {
-                        "name": "ARABIATA",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/arabiata.jpg",
-                        "description": "Chili Biberi ile hazırladığımız acı sosumuz domates sosumuz ile servis edilir."
+                    "size": {
+                        "tr": "150 gr",
+                        "en": "150 gr",
+                        "ru": "150 гр",
+                        "ar": "150 جرام"
+                    }
+                },
+                "additional": {
+                    "name": {
+                        "tr": "İlave",
+                        "en": "Add",
+                        "ru": "Дополнительный",
+                        "ar": "إضافي"
                     },
-                    "bolonez": {
-                        "name": "BOLONEZ",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/bolonez.jpg",
-                        "description": "Kıyma, Kereviz Sapı, Havuç, Soğan ile hazırladığımız bolonez sos, domates sosumuz ile birlikte servis edilir."
-                    },
-                    "sosisli": {
-                        "name": "SOSİSLİ",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/sosis.jpg",
-                        "description": "%100 Dana Sosis, Domates Sosumuz ile servis edilir."
-                    },
-                    "anne_kofteli": {
-                        "name": "ANNE KÖFTELİ",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/anne.jpg",
-                        "description": "Misket Köfteler, Özel Baharatlı Domates sosumuz ile servis edilir."
-                    },
-                    "kestane_mantarli": {
-                        "name": "KESTANE MANTARLI",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/kestane.jpg",
-                        "description": "Kestane mantarı, Krema  ile servis edilir."
-                    },
-                    "4_peynirli": {
-                        "name": "4 PEYNİRLİ",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/peynir.jpg",
-                        "description": "Rokfor, Mihaliç, Parmesan, Suda Mozarella Peyniri, Krema  ile servis edilir."
-                    },
-                    "feslegen_pestosu": {
-                        "name": "FESLEĞEN PESTOSU",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/pesto.jpg",
-                        "description": "Fesleğen, Çam Fıstığı, Parmesan peyniri, Zeytinyağı ile hazırladığımız pesto sosumuz, Krema ile servis edilir."
-                    },
-                    "alfredo": {
-                        "name": "ALFREDO",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/alfredo.jpg",
-                        "description": "60/80/100 gr. Tavuk But Eti, Kestane mantarı, Krema ile servis edilir."
-                    },
-                    "ton_balikli": {
-                        "name": "TON BALIKLI",
-                        "small": "ton_small",
-                        "medium": "ton_medium",
-                        "additional": "ton_additional",
-                        "image": "/assets/ton.jpg",
-                        "description": "50/75/165 gr. Konserve Ton Balığı, Süt Mısır, Turşu, Krema ile servis edilir."
-                    },
-                    "kavurmali": {
-                        "name": "KAVURMALI",
-                        "small": "kavurma_small",
-                        "medium": "kavurma_medium",
-                        "additional": "kavurma_additional",
-                        "image": "/assets/kavurma.jpg",
-                        "description": "50/75/100 gr. Özel Rize Kavurması, Biber, Mantar ve Krema ile servis edilir."
+                    "size": {
+                        "tr": "50 gr",
+                        "en": "50 gr",
+                        "ru": "50 гр",
+                        "ar": "50 جرام"
                     }
                 }
             },
-            "ravioli": {
-                "name": "Ravioli",
-                "href": "ravioli",
-                "sizes": {
-                    "small": {
-                        "name": "Küçük",
-                        "size": "25 adet"
+            "products": {
+                "napolitan": {
+                    "name": {
+                        "tr": "NAPOLİTAN",
+                        "en": "NAPOLITAN",
+                        "ru": "НАПОЛИТАН",
+                        "ar": "نابوليتان"
                     },
-                    "medium": {
-                        "name": "Orta",
-                        "size": "30 adet"
-                    },
-                    "additional": {
-                        "name": "İlave",
-                        "size": "5 adet"
+                    "small": "ucuz_small",
+                    "medium": "ucuz_medium",
+                    "additional": "ucuz_additional",
+                    "image": "/assets/napolitan.jpg",
+                    "description": {
+                        "tr": "Yeşil Zeytin, Siyah Zeytin, Kekik, Balzamik, Sirke, Domates Sosumuz ile servis edilir.",
+                        "en": "Served with Green Olives, Black Olives, Oregano, Balsamic Vinegar, and Tomato Sauce.",
+                        "ru": "Подается с зелеными оливками, черными оливками, орегано, бальзамическим уксусом и томатным соусом.",
+                        "ar": "تُقدّم مع الزيتون الأخضر، الزيتون الأسود، الأوريغانو، خل البلسميك، وصلصة الطماطم."
                     }
                 },
-                "products": {
-                    "kiymali": {
-                        "name": "KIYMALI",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Kıyma, Panko ve baharatlar ile servis edilir."
+                "arabiata": {
+                    "name": {
+                        "tr": "ARABİATA",
+                        "en": "ARABIATA",
+                        "ru": "АРАБИАТА",
+                        "ar": "أرابياتا"
                     },
-                    "ispanakli_peynirli": {
-                        "name": "ISPANAKLI PEYNİRLİ",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Ispanak, Mascarpone peyniri, Parmesan peyniri ile servis edilir."
-                    },
-                    "patates_mantarli": {
-                        "name": "PATATES MANTARLI",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Patates, Kestane mantarı, Karamelize soğan ve baharatlar ile servis edilir."
-                    },
-                    "kizarmis_kiymali": {
-                        "name": "KIZARMIŞ KIYMALI",
-                        "small": "ravioli_pahali_small",
-                        "medium": "ravioli_pahali_medium",
-                        "additional": "ravioli_pahali_additional",
-                        "image": "",
-                        "description": "Kıyma, panko ve baharatlar ile servis edilir."
-                    }
-                }
-            },
-            "su_borek": {
-                "name": "Su Böreği",
-                "href": "su_borek",
-                "sizes": {
-                    "portion": {
-                        "name": "Porsiyon",
-                        "size": ""
-                    },
-                    "half": {
-                        "name": "500 gr",
-                        "size": ""
+                    "small": "ucuz_small",
+                    "medium": "ucuz_medium",
+                    "additional": "ucuz_additional",
+                    "image": "/assets/arabiata.jpg",
+                    "description": {
+                        "tr": "Chili Biberi ile hazırladığımız acı sosumuz domates sosumuz ile servis edilir.",
+                        "en": "Served with spicy sauce made with Chili Pepper and Tomato Sauce.",
+                        "ru": "Подается с острым соусом на основе чили и томатного соуса.",
+                        "ar": "تُقدّم مع صلصة حارة مصنوعة من الفلفل الحار وصلصة الطماطم."
                     }
                 },
-                "products": {
-                    "kiymali": {
-                        "name": "KIYMALI",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/kıyma-su.jpg",
-                        "description": "Dana Kıyma ve Maydanoz ile servis edilir."
+                "bolonez": {
+                    "name": {
+                        "tr": "BOLOGNESE",
+                        "en": "BOLOGNESE",
+                        "ru": "БОЛОНЬЕЗЕ",
+                        "ar": "بولونيز"
                     },
-                    "peynirli": {
-                        "name": "PEYNİRLİ",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/peynirli-su.jpg",
-                        "description": "Ezine Beyaz Peynir ve Maydanoz ile servis edilir."
-                    }
-                }
-            },
-            "dip_sos": {
-                "name": "Dip Sos",
-                "href": "dip_sos",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/bolonez.jpg",
+                    "description": {
+                        "tr": "Kıyma, Kereviz Sapı, Havuç, Soğan ile hazırladığımız bolonez sos, domates sosumuz ile birlikte servis edilir.",
+                        "en": "Bolognese sauce made with minced meat, celery stalk, carrot, and onion, served with tomato sauce.",
+                        "ru": "Соус Болоньезе с рубленым мясом, сельдереем, морковью и луком, подается с томатным соусом.",
+                        "ar": "صلصة بولونيز مصنوعة من اللحم المفروم والكرفس والجزر والبصل، تُقدّم مع صلصة الطماطم."
                     }
                 },
-                "products": {
-                    "sweet_chili_sos": {
-                        "name": "SWEET CHILI SOS",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
+                "sosisli": {
+                    "name": {
+                        "tr": "SOSİSLİ",
+                        "en": "SAUSAGE",
+                        "ru": "СОСИСКИ",
+                        "ar": "سجق"
                     },
-                    "sarimsakli_yogurtlu_sos": {
-                        "name": "SARIMSAKLI YOĞURTLU SOS",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    },
-                    "pestolu_yogurtlu_sos": {
-                        "name": "PESTOLU YOĞURTLU SOS",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "ilave": {
-                "name": "İlave",
-                "href": "ilave",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/sosis.jpg",
+                    "description": {
+                        "tr": "%100 Dana Sosis, Domates Sosumuz ile servis edilir.",
+                        "en": "Served with 100% Beef Sausage and Tomato Sauce.",
+                        "ru": "Подается с сосисками из 100% говядины и томатным соусом.",
+                        "ar": "تُقدّم مع نقانق لحم البقر 100% وصلصة الطماطم."
                     }
                 },
-                "products": {
-                    "kestane": {
-                        "name": "İlave Kestane Mantarı (50 gr)",
-                        "portion": "ilave_kestane",
-                        "image": "",
-                        "description": ""
+                "anne_kofteli": {
+                    "name": {
+                        "tr": "ANNE KÖFTELİ",
+                        "en": "MOTHER'S MEATBALL",
+                        "ru": "КОТЛЕТЫ МАМЫ",
+                        "ar": "كفتة الأم"
                     },
-                    "parmesan": {
-                        "name": "İlave Parmesan (20 gr)",
-                        "portion": "ilave_parmesan",
-                        "image": "",
-                        "description": ""
-                    },
-                    "pesto": {
-                        "name": "İlave Pesto",
-                        "portion": "ilave_pesto",
-                        "image": "",
-                        "description": ""
-                    },
-                    "tavuk": {
-                        "name": "İlave Tavuk (60 gr)",
-                        "portion": "ilave_tavuk",
-                        "image": "",
-                        "description": ""
-                    },
-                    "kavurma": {
-                        "name": "İlave Kavurma (25 gr)",
-                        "portion": "ilave_kavurma",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "tatli": {
-                "name": "Tatlı",
-                "href": "tatli",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/anne.jpg",
+                    "description": {
+                        "tr": "Misket Köfteler, Özel Baharatlı Domates sosumuz ile servis edilir.",
+                        "en": "Served with meatballs and special spiced tomato sauce.",
+                        "ru": "Подается с фрикадельками и специальным пряным томатным соусом.",
+                        "ar": "تُقدّم مع كرات اللحم وصلصة الطماطم المتبلة الخاصة."
                     }
                 },
-                "products": {
-                    "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "DONDURMA (120 gr)",
-                        "portion": "dondurma",
-                        "image": "/assets/dondurma.jpg",
-                        "description": ""
+                "kestane_mantarli": {
+                    "name": {
+                        "tr": "KESTANE MANTARLI",
+                        "en": "CHAMPIGNON MUSHROOM",
+                        "ru": "КАШТАНОВЫЙ ГРИБ",
+                        "ar": "الكستناء الفطر"
                     },
-                    "gurme_dondurma": {
-                        "name": "GURME DONDURMA (120 gr)",
-                        "portion": "gurme_dondurma",
-                        "image": "/assets/gurme.jpg",
-                        "description": ""
-                    },
-                    "tiramisu": {
-                        "name": "TİRAMİSU",
-                        "portion": "tiramisu",
-                        "image": "/assets/tiramisu.jpg",
-                        "description": ""
-                    }
-                }
-            },
-            "soguk": {
-                "name": "Soğuk İçecek",
-                "href": "soguk",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/kestane.jpg",
+                    "description": {
+                        "tr": "Kestane mantarı, Krema  ile servis edilir.",
+                        "en": "Served with Chestnut Mushrooms and Cream.",
+                        "ru": "Подается с каштановыми грибами и сливками.",
+                        "ar": "تُقدّم مع فطر الكستناء وكريمة."
                     }
                 },
-                "products": {
-                    "su": {
-                        "name": "SU (500 ml)",
-                        "portion": "su",
-                        "image": "/assets/su.webp",
-                        "description": ""
+                "4_peynirli": {
+                    "name": {
+                        "tr": "4 PEYNİRLİ",
+                        "en": "4 CHEESE",
+                        "ru": "4 СЫРА",
+                        "ar": "4 أنواع من الجبن"
                     },
-                    "soda": {
-                        "name": "SODA (200 ml)",
-                        "portion": "soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "meyveli": {
-                        "name": "MEYVELİ SODA (200 ml)",
-                        "portion": "meyveli_soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "mini_kola": {
-                        "name": "MİNİ KOLA (Şişe 200 ml)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "mini_sprite": {
-                        "name": "MİNİ SPRITE (Şişe 200 ml)",
-                        "portion": "kola",
-                        "image": "/assets/sprite.jpg",
-                        "description": ""
-                    },
-                    "mini_fanta": {
-                        "name": "MİNİ FANTA (Şişe 200 ml)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "corcil": {
-                        "name": "ÇÖRÇİL (200 ml)",
-                        "portion": "corcil",
-                        "image": "",
-                        "description": ""
-                    },
-                    "ozerhisar_ayran": {
-                        "name": "ÖZERHİSAR AYRAN (245 ml)",
-                        "portion": "ayran",
-                        "image": "/assets/ayran.png",
-                        "description": ""
-                    },
-                    "kola": {
-                        "name": "KOLA (Şişe 300 ml / Kutu 350 ml)",
-                        "portion": "kola",
-                        "image": "/assets/kola.jpg",
-                        "description": ""
-                    },
-                    "sprite": {
-                        "name": "SPRITE (Şişe 300 ml / Kutu 350 ml)",
-                        "portion": "kola",
-                        "image": "/assets/sprite.jpg",
-                        "description": ""
-                    },
-                    "fanta": {
-                        "name": "FANTA (Şişe 300 ml / Kutu 350 ml)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "fusetea": {
-                        "name": "FUSETEA (Şişe 300 ml / Kutu 350 ml)",
-                        "portion": "kola",
-                        "image": "/assets/fusetea.jpg",
-                        "description": ""
-                    },
-                    "limonata": {
-                        "name": "LİMONATA (330 ml)",
-                        "portion": "limonata",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "sicak": {
-                "name": "Sıcak İçecek",
-                "href": "sicak",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/peynir.jpg",
+                    "description": {
+                        "tr": "Rokfor, Mihaliç, Parmesan, Suda Mozarella Peyniri, Krema ile servis edilir.",
+                        "en": "Served with Roquefort, Mihaliç, Parmesan, and Mozzarella Cheese, with Cream.",
+                        "ru": "Подается с рокфором, Михаличем, пармезаном и моцареллой, с кремом.",
+                        "ar": "تُقدّم مع جبن روكفور، ميهاليش، بارميزان، وموزاريلا مع كريمة."
                     }
                 },
-                "products": {
-                    "cay": {
-                        "name": "ÇAY",
-                        "portion": "cay",
-                        "image": "",
-                        "description": ""
+                "feslegen_pestosu": {
+                    "name": {
+                        "tr": "FESLEĞEN PESTOSU",
+                        "en": "BASIL PESTO",
+                        "ru": "БАЗИЛИК ПЕСТО",
+                        "ar": "صلصة الريحان"
                     },
-                    "turk_kahvesi": {
-                        "name": "TÜRK KAHVESİ",
-                        "portion": "turk_kahvesi",
-                        "image": "",
-                        "description": ""
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/pesto.jpg",
+                    "description": {
+                        "tr": "Fesleğen, Çam Fıstığı, Parmesan peyniri, Zeytinyağı ile hazırladığımız pesto sosumuz, Krema ile servis edilir.",
+                        "en": "Basil, Pine Nuts, Parmesan Cheese, Olive Oil pesto sauce, served with Cream.",
+                        "ru": "Песто из базилика, кедровых орехов, пармезана и оливкового масла, подается со сливками.",
+                        "ar": "صلصة البيستو المصنوعة من الريحان، الصنوبر، جبن البارميزان، وزيت الزيتون، تُقدّم مع كريمة."
+                    }
+                },
+                "alfredo": {
+                    "name": {
+                        "tr": "ALFREDO",
+                        "en": "ALFREDO",
+                        "ru": "АЛЬФРЕДО",
+                        "ar": "ألفريدو"
                     },
-                    "espresso": {
-                        "name": "ESPRESSO",
-                        "portion": "espresso",
-                        "image": "",
-                        "description": ""
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/alfredo.jpg",
+                    "description": {
+                        "tr": "60/80/100 gr. Tavuk But Eti, Kestane mantarı, Krema ile servis edilir.",
+                        "en": "Served with Chicken Thigh Meat (60/80/100 gr), Chestnut Mushrooms, and Cream.",
+                        "ru": "Подается с куриным мясом бедра (60/80/100 гр), каштановыми грибами и сливками.",
+                        "ar": "تُقدّم مع لحم الفخذ الدجاج (60/80/100 جرام)، فطر الكستناء، وكريمة."
+                    }
+                },
+                "ton_balikli": {
+                    "name": {
+                        "tr": "TON BALIKLI",
+                        "en": "TUNA FISH",
+                        "ru": "ТУНЕЦ",
+                        "ar": "تونة"
                     },
-                    "double_espresso": {
-                        "name": "DOUBLE ESPRESSO",
-                        "portion": "double_espresso",
-                        "image": "",
-                        "description": ""
+                    "small": "ton_small",
+                    "medium": "ton_medium",
+                    "additional": "ton_additional",
+                    "image": "/assets/ton.jpg",
+                    "description": {
+                        "tr": "50/75/165 gr. Konserve Ton Balığı, Süt Mısır, Turşu, Krema ile servis edilir.",
+                        "en": "Served with Canned Tuna Fish (50/75/165 gr), Sweet Corn, Pickles, and Cream.",
+                        "ru": "Подается с консервированным тунцом (50/75/165 гр), сладкой кукурузой, солеными огурцами и сливками.",
+                        "ar": "تُقدّم مع تونة معلبة (50/75/165 جرام)، ذرة حلوة، مخللات، وكريمة."
+                    }
+                },
+                "kavurmali": {
+                    "name": {
+                        "tr": "KAVURMALI",
+                        "en": "WITH ROASTED MEAT",
+                        "ru": "С ЖАРЕНЫМ МЯСОМ",
+                        "ar": "مع لحم مشوي"
                     },
-                    "americano": {
-                        "name": "AMERİCANO",
-                        "portion": "americano",
-                        "image": "",
-                        "description": ""
+                    "small": "kavurma_small",
+                    "medium": "kavurma_medium",
+                    "additional": "kavurma_additional",
+                    "image": "/assets/kavurma.jpg",
+                    "description": {
+                        "tr": "50/75/100 gr. Özel Rize Kavurması, Biber, Mantar ve Krema ile servis edilir.",
+                        "en": "Served with Special Rize Roasted Meat (50/75/100 gr), Bell Pepper, Mushrooms, and Cream.",
+                        "ru": "Подается с особым жареным мясом из Ризе (50/75/100 гр), болгарским перцем, грибами и сливками.",
+                        "ar": "تُقدّم مع لحم مشوي خاص من ريزي (50/75/100 جرام)، فلفل رومي، فطر، وكريمة."
                     }
                 }
             }
-        }
-    },
-    "en": {
-        "header-info": "All our products contain olive oil and butter.",
-        "footer-info": "Our prices include VAT and all taxes.",
-        "footer-info2": "Price change date 18/01/2025",
-        "footer-img-url": "/assets/yerli-uretim.png",
-        "sections": {
-            "makarna": {
-                "name": "Pasta",
-                "href": "pasta",
-                "info": "Our pastas are served with parmesan cheese (Grana Padano) on top.",
-                "sizes": {
-                    "small": {
-                        "name": "Small",
-                        "size": "100 gr"
+        },
+        "ravioli": {
+            "name": {
+                "tr": "Ravioli",
+                "en": "Ravioli",
+                "ru": "Равиоли",
+                "ar": "رافيولي"
+            },
+            "href": "ravioli",
+            "sizes": {
+                "small": {
+                    "name": {
+                        "tr": "Küçük",
+                        "en": "Small",
+                        "ru": "Маленький",
+                        "ar": "صغير"
                     },
-                    "medium": {
-                        "name": "Medium",
-                        "size": "150 gr"
-                    },
-                    "additional": {
-                        "name": "Add",
-                        "size": "50 gr"
+                    "size": {
+                        "tr": "25 adet",
+                        "en": "25 pieces",
+                        "ru": "25 шт",
+                        "ar": "25 قطعة"
                     }
                 },
-                "products": {
-                    "napolitan": {
-                        "name": "NAPOLITAN",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/napolitan.jpg",
-                        "description": "Served with Green Olives, Black Olives, Oregano, Balsamic Vinegar, and Tomato Sauce."
+                "medium": {
+                    "name": {
+                        "tr": "Orta",
+                        "en": "Medium",
+                        "ru": "Средний",
+                        "ar": "متوسط"
                     },
-                    "arabiata": {
-                        "name": "ARABIATA",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/arabiata.jpg",
-                        "description": "Served with spicy sauce made with Chili Pepper and Tomato Sauce."
+                    "size": {
+                        "tr": "30 adet",
+                        "en": "30 pieces",
+                        "ru": "30 шт",
+                        "ar": "30 قطعة"
+                    }
+                },
+                "additional": {
+                    "name": {
+                        "tr": "İlave",
+                        "en": "Add",
+                        "ru": "Дополнительный",
+                        "ar": "إضافي"
                     },
-                    "bolonez": {
-                        "name": "BOLOGNESE",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/bolonez.jpg",
-                        "description": "Bolognese sauce made with minced meat, celery stalk, carrot, and onion, served with tomato sauce."
-                    },
-                    "sosisli": {
-                        "name": "SAUSAGE",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/sosis.jpg",
-                        "description": "Served with 100% Beef Sausage and Tomato Sauce."
-                    },
-                    "anne_kofteli": {
-                        "name": "MOTHER'S MEATBALL",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/anne.jpg",
-                        "description": "Served with meatballs and special spiced tomato sauce."
-                    },
-                    "kestane_mantarli": {
-                        "name": "CHESTNUT MUSHROOM",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/kestane.jpg",
-                        "description": "Served with Chestnut Mushrooms and Cream."
-                    },
-                    "4_peynirli": {
-                        "name": "4 CHEESE",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/peynir.jpg",
-                        "description": "Served with Roquefort, Mihaliç, Parmesan, and Mozzarella Cheese, with Cream."
-                    },
-                    "feslegen_pestosu": {
-                        "name": "BASIL PESTO",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/pesto.jpg",
-                        "description": "Basil, Pine Nuts, Parmesan Cheese, Olive Oil pesto sauce, served with Cream."
-                    },
-                    "alfredo": {
-                        "name": "ALFREDO",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/alfredo.jpg",
-                        "description": "Served with Chicken Thigh Meat (60/80/100 gr), Chestnut Mushrooms, and Cream."
-                    },
-                    "ton_balikli": {
-                        "name": "TUNA FISH",
-                        "small": "ton_small",
-                        "medium": "ton_medium",
-                        "additional": "ton_additional",
-                        "image": "/assets/ton.jpg",
-                        "description": "Served with Canned Tuna Fish (50/75/165 gr), Sweet Corn, Pickles, and Cream."
-                    },
-                    "kavurmali": {
-                        "name": "WITH ROASTED MEAT",
-                        "small": "kavurma_small",
-                        "medium": "kavurma_medium",
-                        "additional": "kavurma_additional",
-                        "image": "/assets/kavurma.jpg",
-                        "description": "Served with Special Rize Roasted Meat (50/75/100 gr), Bell Pepper, Mushrooms, and Cream."
+                    "size": {
+                        "tr": "5 adet",
+                        "en": "5 pieces",
+                        "ru": "5 шт",
+                        "ar": "5 قطع"
                     }
                 }
             },
-            "ravioli": {
-                "name": "Ravioli",
-                "href": "ravioli",
-                "sizes": {
-                    "small": {
-                        "name": "Small",
-                        "size": "25 pieces"
+            "products": {
+                "kiymali": {
+                    "name": {
+                        "tr": "Kıymalı",
+                        "en": "MINCED MEAT",
+                        "ru": "МЯСОМ",
+                        "ar": "لحم مفروم"
                     },
-                    "medium": {
-                        "name": "Medium",
-                        "size": "30 pieces"
-                    },
-                    "additional": {
-                        "name": "Add",
-                        "size": "5 pieces"
+                    "small": "ravioli_ucuz_small",
+                    "medium": "ravioli_ucuz_medium",
+                    "additional": "ravioli_ucuz_additional",
+                    "image": "",
+                    "description": {
+                        "tr": "Kıyma, Panko ve baharatlar ile servis edilir.",
+                        "en": "Served with minced meat, panko, and spices.",
+                        "ru": "Подается с мясным фаршем, панко и специями.",
+                        "ar": "تُقدّم مع لحم مفروم، بانكو، وتوابل."
                     }
                 },
-                "products": {
-                    "kiymali": {
-                        "name": "MINCED MEAT",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Served with minced meat, panko, and spices."
+                "ispanakli_peynirli": {
+                    "name": {
+                        "tr": "Ispanaklı Peynirli",
+                        "en": "SPINACH AND CHEESE",
+                        "ru": "ШПИНАТ И СЫР",
+                        "ar": "سبانخ وجبن"
                     },
-                    "ispanakli_peynirli": {
-                        "name": "SPINACH AND CHEESE",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Served with Spinach, Mascarpone Cheese, and Parmesan Cheese."
-                    },
-                    "patates_mantarli": {
-                        "name": "POTATO AND MUSHROOM",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Served with Potato, Chestnut Mushrooms, Caramelized Onion, and Spices."
-                    },
-                    "kizarmis_kiymali": {
-                        "name": "FRIED MINCED MEAT",
-                        "small": "ravioli_pahali_small",
-                        "medium": "ravioli_pahali_medium",
-                        "additional": "ravioli_pahali_additional",
-                        "image": "",
-                        "description": "Served with minced meat, panko, and spices."
-                    }
-                }
-            },
-            "su_borek": {
-                "name": "Water Borek",
-                "href": "su_borek",
-                "sizes": {
-                    "portion": {
-                        "name": "Portion",
-                        "size": ""
-                    },
-                    "half": {
-                        "name": "500 gr",
-                        "size": ""
+                    "small": "ravioli_ucuz_small",
+                    "medium": "ravioli_ucuz_medium",
+                    "additional": "ravioli_ucuz_additional",
+                    "image": "",
+                    "description": {
+                        "tr": "Ispanak, Mascarpone peyniri, Parmesan peyniri ile servis edilir.",
+                        "en": "Served with Spinach, Mascarpone Cheese, and Parmesan Cheese.",
+                        "ru": "Подается с шпинатом, маскарпоне и пармезаном.",
+                        "ar": "تُقدّم مع سبانخ، جبنة ماسكاربوني، وجبنة بارميزان."
                     }
                 },
-                "products": {
-                    "kiymali": {
-                        "name": "MINCED MEAT",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/kıyma-su.jpg",
-                        "description": "Served with Beef Mince and Parsley."
+                "patates_mantarli": {
+                    "name": {
+                        "tr": "Patates Mantarlı",
+                        "en": "POTATO AND MUSHROOM",
+                        "ru": "КАРТОФЕЛЬ И ГРИБЫ",
+                        "ar": "بطاطا وفطر"
                     },
-                    "peynirli": {
-                        "name": "CHEESE",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/peynirli-su.jpg",
-                        "description": "Served with Ezine White Cheese and Parsley."
-                    }
-                }
-            },
-            "dip_sos": {
-                "name": "Dip Sauce",
-                "href": "dip_sos",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
+                    "small": "ravioli_ucuz_small",
+                    "medium": "ravioli_ucuz_medium",
+                    "additional": "ravioli_ucuz_additional",
+                    "image": "",
+                    "description": {
+                        "tr": "Patates, Kestane mantarı, Karamelize soğan ve baharatlar ile servis edilir.",
+                        "en": "Served with Potato, Chestnut Mushrooms, Caramelized Onion, and Spices.",
+                        "ru": "Подается с картошкой, каштановыми грибами, карамелизированным луком и специями.",
+                        "ar": "تُقدّم مع بطاطس، فطر الكستناء، بصل مكرمل، وتوابل."
                     }
                 },
-                "products": {
-                    "sweet_chili_sos": {
-                        "name": "SWEET CHILI SAUCE",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
+                "kizarmis_kiymali": {
+                    "name": {
+                        "tr": "Kızarmış Kıymalı",
+                        "en": "FRIED MINCED MEAT",
+                        "ru": "ЖАРЕНОЕ МЯСО",
+                        "ar": "لحم مفروم مقلي"
                     },
-                    "sarimsakli_yogurtlu_sos": {
-                        "name": "GARLIC YOGURT SAUCE",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    },
-                    "pestolu_yogurtlu_sos": {
-                        "name": "PESTO YOGURT SAUCE",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "ilave": {
-                "name": "Additions",
-                "href": "ilave",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "kestane": {
-                        "name": "Extra Champignon Mushroom (50 gr)",
-                        "portion": "ilave_kestane",
-                        "image": "",
-                        "description": ""
-                    },
-                    "parmesan": {
-                        "name": "Extra Parmesan (20 gr)",
-                        "portion": "ilave_parmesan",
-                        "image": "",
-                        "description": ""
-                    },
-                    "pesto": {
-                        "name": "Extra Pesto",
-                        "portion": "ilave_pesto",
-                        "image": "",
-                        "description": ""
-                    },
-                    "tavuk": {
-                        "name": "Extra Chicken (60 gr)",
-                        "portion": "ilave_tavuk",
-                        "image": "",
-                        "description": ""
-                    },
-                    "kavurma": {
-                        "name": "Extra Braised Meat (25 gr)",
-                        "portion": "ilave_kavurma",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "tatli": {
-                "name": "Dessert",
-                "href": "tatli",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "ICE CREAM (120 gr)",
-                        "portion": "dondurma",
-                        "image": "/assets/dondurma.jpg",
-                        "description": ""
-                    },
-                    "gurme_dondurma": {
-                        "name": "GOURMET ICE CREAM (120 gr)",
-                        "portion": "gurme_dondurma",
-                        "image": "/assets/gurme.jpg",
-                        "description": ""
-                    },
-                    "tiramisu": {
-                        "name": "TIRAMISU",
-                        "portion": "tiramisu",
-                        "image": "/assets/tiramisu.jpg",
-                        "description": ""
-                    }
-                }
-            },
-            "soguk": {
-                "name": "Cold Drinks",
-                "href": "soguk",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "su": {
-                        "name": "WATER (500 ml)",
-                        "portion": "sos",
-                        "image": "/assets/su.webp",
-                        "description": ""
-                    },
-                    "soda": {
-                        "name": "SODA (200 ml)",
-                        "portion": "soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "meyveli_soda": {
-                        "name": "FRUIT SODA (200 ml)",
-                        "portion": "meyveli_soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "mini_kola": {
-                        "name": "MINI COKE (Bottle 200 ml)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "mini_sprite": {
-                        "name": "MINI SPRITE (Bottle 200 ml)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "mini_fanta": {
-                        "name": "MINI FANTA (Bottle 200 ml)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "corcil": {
-                        "name": "CHURCHILL (200 ml)",
-                        "portion": "corcil",
-                        "image": "",
-                        "description": ""
-                    },
-                    "ozerhisar_ayran": {
-                        "name": "ÖZERHİSAR AYRAN (245 ml)",
-                        "portion": "ayran",
-                        "image": "/assets/ayran.png",
-                        "description": ""
-                    },
-                    "kola": {
-                        "name": "COKE (Bottle 300 ml / Can 350 ml)",
-                        "portion": "kola",
-                        "image": "/assets/kola.jpg",
-                        "description": ""
-                    },
-                    "sprite": {
-                        "name": "SPRITE (Bottle 300 ml / Can 350 ml)",
-                        "portion": "kola",
-                        "image": "/assets/sprite.jpg",
-                        "description": ""
-                    },
-                    "fanta": {
-                        "name": "FANTA (Bottle 300 ml / Can 350 ml)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "fusetea": {
-                        "name": "FUSETEA (Bottle 300 ml / Can 350 ml)",
-                        "portion": "kola",
-                        "image": "/assets/fusetea.jpg",
-                        "description": ""
-                    },
-                    "limonata": {
-                        "name": "LEMONADE (330 ml)",
-                        "portion": "limonata",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "sicak": {
-                "name": "Hot Drinks",
-                "href": "sicak",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "cay": {
-                        "name": "TEA",
-                        "portion": "cay",
-                        "image": "",
-                        "description": ""
-                    },
-                    "turk_kahvesi": {
-                        "name": "TURKISH COFFEE",
-                        "portion": "turk_kahvesi",
-                        "image": "",
-                        "description": ""
-                    },
-                    "espresso": {
-                        "name": "ESPRESSO",
-                        "portion": "espresso",
-                        "image": "",
-                        "description": ""
-                    },
-                    "double_espresso": {
-                        "name": "DOUBLE ESPRESSO",
-                        "portion": "double_espresso",
-                        "image": "",
-                        "description": ""
-                    },
-                    "americano": {
-                        "name": "AMERICANO",
-                        "portion": "americano",
-                        "image": "",
-                        "description": ""
+                    "small": "ravioli_pahali_small",
+                    "medium": "ravioli_pahali_medium",
+                    "additional": "ravioli_pahali_additional",
+                    "image": "",
+                    "description": {
+                        "tr": "Kıyma, Panko ve baharatlar ile servis edilir.",
+                        "en": "Served with minced meat, panko, and spices.",
+                        "ru": "Подается с мясным фаршем, панко и специями.",
+                        "ar": "تُقدّم مع لحم مفروم، بانكو، وتوابل."
                     }
                 }
             }
-        }
-    },
-    "ru": {
-        "header-info": "Все наши продукты содержат оливковое масло и масло.",
-        "footer-info": "Наши цены включают НДС и все налоги.",
-        "footer-info2": "Дата изменения цен 12/11/2024",
-        "footer-img-url": "/assets/yerli-uretim.png",
-        "sections": {
-            "makarna": {
-                "name": "Паста",
-                "href": "pasta",
-                "info": "Наша паста подается с пармезаном (Grana Padano) сверху.",
-                "sizes": {
-                    "small": {
-                        "name": "Маленькая",
-                        "size": "100 гр"
+        },
+        "su_borek": {
+            "name": {
+                "tr": "Su Böreği",
+                "en": "Water Pastry",
+                "ru": "Водный борек",
+                "ar": "ماء بوريك"
+            },
+            "href": "su_borek",
+            "sizes": {
+                "portion": {
+                    "name": {
+                        "tr": "Porsiyon",
+                        "en": "Portion",
+                        "ru": "Порция",
+                        "ar": "قطعة"
                     },
-                    "medium": {
-                        "name": "Средняя",
-                        "size": "150 гр"
-                    },
-                    "additional": {
-                        "name": "Добавить",
-                        "size": "50 гр"
-                    }
+                    "size": ""
                 },
-                "products": {
-                    "napolitan": {
-                        "name": "НАПОЛИТАНА",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/napolitan.jpg",
-                        "description": "Подается с зелеными оливками, черными оливками, орегано, бальзамическим уксусом и томатным соусом."
+                "half": {
+                    "name": {
+                        "tr": "500 gr",
+                        "en": "500 gr",
+                        "ru": "500 гр",
+                        "ar": "500 جرام"
                     },
-                    "arabiata": {
-                        "name": "АРАБИАТА",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/arabiata.jpg",
-                        "description": "Подается с острым соусом на основе чили и томатного соуса."
-                    },
-                    "bolonez": {
-                        "name": "БОЛОНЬЕЗЕ",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/bolonez.jpg",
-                        "description": "Соус Болоньезе с рубленым мясом, сельдереем, морковью и луком, подается с томатным соусом."
-                    },
-                    "sosisli": {
-                        "name": "СОУСИЧКА",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/sosis.jpg",
-                        "description": "Подается с сосисками из 100% говядины и томатным соусом."
-                    },
-                    "anne_kofteli": {
-                        "name": "МАТЕРИНЫЕ КОТЛЕТЫ",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/anne.jpg",
-                        "description": "Подается с фрикадельками и специальным пряным томатным соусом."
-                    },
-                    "kestane_mantarli": {
-                        "name": "КАШТАНОВЫЕ ГРИБЫ",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/kestane.jpg",
-                        "description": "Подается с каштановыми грибами и сливками."
-                    },
-                    "4_peynirli": {
-                        "name": "4 СЫРА",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/peynir.jpg",
-                        "description": "Подается с рокфором, Михаличем, пармезаном и моцареллой, с кремом."
-                    },
-                    "feslegen_pestosu": {
-                        "name": "БАЗИЛИКОВЫЙ ПЕСТО",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/pesto.jpg",
-                        "description": "Песто из базилика, кедровых орехов, пармезана и оливкового масла, подается со сливками."
-                    },
-                    "alfredo": {
-                        "name": "АЛЬФРЕДО",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/alfredo.jpg",
-                        "description": "Подается с куриным мясом бедра (60/80/100 гр), каштановыми грибами и сливками."
-                    },
-                    "ton_balikli": {
-                        "name": "ТУНЕЦ",
-                        "small": "ton_small",
-                        "medium": "ton_medium",
-                        "additional": "ton_additional",
-                        "image": "/assets/ton.jpg",
-                        "description": "Подается с консервированным тунцом (50/75/165 гр), сладкой кукурузой, солеными огурцами и сливками."
-                    },
-                    "kavurmali": {
-                        "name": "С РЫЖЕЙ ЖАРЕНЫМ МЯСОМ",
-                        "small": "kavurma_small",
-                        "medium": "kavurma_medium",
-                        "additional": "kavurma_additional",
-                        "image": "/assets/kavurma.jpg",
-                        "description": "Подается с особым жареным мясом из Ризе (50/75/100 гр), болгарским перцем, грибами и сливками."
-                    }
+                    "size": ""
                 }
             },
-            "ravioli": {
-                "name": "Равиоли",
-                "href": "ravioli",
-                "sizes": {
-                    "small": {
-                        "name": "Маленькие",
-                        "size": "25 шт"
+            "products": {
+                "kiymali": {
+                    "name": {
+                        "tr": "Kıymalı",
+                        "en": "MINCED MEAT",
+                        "ru": "МЯСОМ",
+                        "ar": "لحم مفروم"
                     },
-                    "medium": {
-                        "name": "Средние",
-                        "size": "30 шт"
-                    },
-                    "additional": {
-                        "name": "Добавить",
-                        "size": "5 шт"
+                    "portion": "su_borek_porsiyon",
+                    "half": "su_borek_half",
+                    "image": "/assets/kıyma-su.jpg",
+                    "description": {
+                        "tr": "Dana Kıyma ve Maydanoz ile servis edilir.",
+                        "en": "Served with Beef Mince and Parsley.",
+                        "ru": "Подается с говяжьим фаршем и петрушкой.",
+                        "ar": "تُقدّم مع لحم بقر مفروم وبقدونس."
                     }
                 },
-                "products": {
-                    "kiymali": {
-                        "name": "С ФАРШЕМ",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Подается с мясным фаршем, панко и специями."
+                "peynirli": {
+                    "name": {
+                        "tr": "Peynirli",
+                        "en": "CHEESE",
+                        "ru": "СЫР",
+                        "ar": "جبن"
                     },
-                    "ispanakli_peynirli": {
-                        "name": "ШПИНАТ И СЫР",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Подается с шпинатом, маскарпоне и пармезаном."
-                    },
-                    "patates_mantarli": {
-                        "name": "КАРТОШКА И ГРИБЫ",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "Подается с картошкой, каштановыми грибами, карамелизированным луком и специями."
-                    },
-                    "kizarmis_kiymali": {
-                        "name": "ЖАРЕНЫЙ ФАРШ",
-                        "small": "ravioli_pahali_small",
-                        "medium": "ravioli_pahali_medium",
-                        "additional": "ravioli_pahali_additional",
-                        "image": "",
-                        "description": "Подается с мясным фаршем, панко и специями."
-                    }
-                }
-            },
-            "su_borek": {
-                "name": "Вода Бурек",
-                "href": "su_borek",
-                "sizes": {
-                    "portion": {
-                        "name": "Порция",
-                        "size": ""
-                    },
-                    "half": {
-                        "name": "500 гр",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "kiymali": {
-                        "name": "С ФАРШЕМ",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/kıyma-su.jpg",
-                        "description": "Подается с говяжьим фаршем и петрушкой."
-                    },
-                    "peynirli": {
-                        "name": "СЫР",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/peynirli-su.jpg",
-                        "description": "Подается с сыром Эзине и петрушкой."
-                    }
-                }
-            },
-            "dip_sos": {
-                "name": "Соус для маканья",
-                "href": "dip_sos",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "sweet_chili_sos": {
-                        "name": "СОУС СЛАДКОГО ЧИЛИ",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    },
-                    "sarimsakli_yogurtlu_sos": {
-                        "name": "ЧЕСНОЧНЫЙ СОУС С ЙОГУРТОМ",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    },
-                    "pestolu_yogurtlu_sos": {
-                        "name": "ПЕСТО С ЙОГУРТОМ",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "ilave": {
-                "name": "ДОПОЛНЕНИЯ",
-                "href": "ilave",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "kestane": {
-                        "name": "Грибы шампиньоны (50 гр)",
-                        "portion": "ilave_kestane",
-                        "image": "",
-                        "description": ""
-                    },
-                    "parmesan": {
-                        "name": "Экстра Пармезан (20 гр)",
-                        "portion": "ilave_parmesan",
-                        "image": "",
-                        "description": ""
-                    },
-                    "pesto": {
-                        "name": "Дополнительный песто",
-                        "portion": "ilave_pesto",
-                        "image": "",
-                        "description": ""
-                    },
-                    "tavuk": {
-                        "name": "Дополнительная курица (60 гр)",
-                        "portion": "ilave_tavuk",
-                        "image": "",
-                        "description": ""
-                    },
-                    "kavurma": {
-                        "name": "дополнительное тушеное мясо (25 гр)",
-                        "portion": "ilave_kavurma",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "tatli": {
-                "name": "Десерт",
-                "href": "tatli",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "Мороженое (120 г)",
-                        "portion": "dondurma",
-                        "image": "/assets/dondurma.jpg",
-                        "description": ""
-                    },
-                    "gurme_dondurma": {
-                        "name": "ГУРМАНСКОЕ МОРОЖЕНОЕ (120 г)",
-                        "portion": "gurme_dondurma",
-                        "image": "/assets/gurme.jpg",
-                        "description": ""
-                    },
-                    "tiramisu": {
-                        "name": "ТИРАМИСУ",
-                        "portion": "tiramisu",
-                        "image": "/assets/tiramisu.jpg",
-                        "description": ""
-                    }
-                }
-            },
-            "soguk": {
-                "name": "Холодные напитки",
-                "href": "soguk",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "su": {
-                        "name": "ВОДА (500 мл)",
-                        "portion": "su",
-                        "image": "/assets/su.webp",
-                        "description": ""
-                    },
-                    "soda": {
-                        "name": "СОДА (200 мл)",
-                        "portion": "soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "meyveli_soda": {
-                        "name": "ФРУКТОВАЯ СОДА (200 мл)",
-                        "portion": "meyveli_soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "mini_kola": {
-                        "name": "МИНИ КОКА-КОЛА (Бутылка 200 мл)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "mini_sprite": {
-                        "name": "МИНИ СПРАЙТ (Бутылка 200 мл)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "mini_fanta": {
-                        "name": "МИНИ ФАНТА (Бутылка 200 мл)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "corcil": {
-                        "name": "ЧЕРЧИЛЛ (200 мл)",
-                        "portion": "corcil",
-                        "image": "",
-                        "description": ""
-                    },
-                    "ozerhisar_ayran": {
-                        "name": "ОЗЕРХИСАР АЙРАН (245 мл)",
-                        "portion": "ayran",
-                        "image": "/assets/ayran.png",
-                        "description": ""
-                    },
-                    "kola": {
-                        "name": "КОЛА (Бутылка 300 мл / Банка 350 мл)",
-                        "portion": "kola",
-                        "image": "/assets/kola.jpg",
-                        "description": ""
-                    },
-                    "sprite": {
-                        "name": "СПРАЙТ (Бутылка 300 мл / Банка 350 мл)",
-                        "portion": "kola",
-                        "image": "/assets/sprite.jpg",
-                        "description": ""
-                    },
-                    "fanta": {
-                        "name": "ФАНТА (Бутылка 300 мл / Банка 350 мл)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "fusetea": {
-                        "name": "ФЬЮЗТЕА (Бутылка 300 мл / Банка 350 мл)",
-                        "portion": "kola",
-                        "image": "/assets/fusetea.jpg",
-                        "description": ""
-                    },
-                    "limonata": {
-                        "name": "ЛИМОНАД (330 мл)",
-                        "portion": "limonata",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "sicak": {
-                "name": "Горячие напитки",
-                "href": "sicak",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
-                },
-                "products": {
-                    "cay": {
-                        "name": "ЧАЙ",
-                        "portion": "cay",
-                        "image": "",
-                        "description": ""
-                    },
-                    "turk_kahvesi": {
-                        "name": "ТУРЕЦКИЙ КОФЕ",
-                        "portion": "turk_kahvesi",
-                        "image": "",
-                        "description": ""
-                    },
-                    "espresso": {
-                        "name": "ЭСПРЕССО",
-                        "portion": "espresso",
-                        "image": "",
-                        "description": ""
-                    },
-                    "double_espresso": {
-                        "name": "ДВОЙНОЙ ЭСПРЕССО",
-                        "portion": "double_espresso",
-                        "image": "",
-                        "description": ""
-                    },
-                    "americano": {
-                        "name": "АМЕРИКАНО",
-                        "portion": "americano",
-                        "image": "",
-                        "description": ""
+                    "portion": "su_borek_porsiyon",
+                    "half": "su_borek_half",
+                    "image": "/assets/peynirli-su.jpg",
+                    "description": {
+                        "tr": "Ezine Beyaz Peynir ve Maydanoz ile servis edilir.",
+                        "en": "Served with Ezine White Cheese and Parsley.",
+                        "ru": "Подается с сыром Эзине и петрушкой.",
+                        "ar": "تُقدّم مع جبن إزيني الأبيض وبقدونس."
                     }
                 }
             }
-        }
-    },
-    "ar": {
-        "header-info": "جميع منتجاتنا تحتوي على زيت الزيتون والزبدة.",
-        "footer-info": "أسعارنا تشمل ضريبة القيمة المضافة وجميع الضرائب.",
-        "footer-info2": "تاريخ تغيير الأسعار 18/01/2025",
-        "footer-img-url": "/assets/yerli-uretim.png",
-        "sections": {
-            "makarna": {
-                "name": "مكرونة",
-                "href": "pasta",
-                "info": "تُقدّم مكروناتنا مع جبنة بارميزان (غرانا بادانو) فوقها.",
-                "sizes": {
-                    "small": {
-                        "name": "صغير",
-                        "size": "100 جرام"
-                    },
-                    "medium": {
-                        "name": "متوسط",
-                        "size": "150 جرام"
-                    },
-                    "additional": {
-                        "name": "إضافة",
-                        "size": "50 جرام"
-                    }
-                },
-                "products": {
-                    "napolitan": {
-                        "name": "نابوليتان",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/napolitan.jpg",
-                        "description": "تُقدّم مع الزيتون الأخضر، الزيتون الأسود، الأوريغانو، خل البلسميك، وصلصة الطماطم."
-                    },
-                    "arabiata": {
-                        "name": "أرابياتا",
-                        "small": "ucuz_small",
-                        "medium": "ucuz_medium",
-                        "additional": "ucuz_additional",
-                        "image": "/assets/arabiata.jpg",
-                        "description": "تُقدّم مع صلصة حارة مصنوعة من الفلفل الحار وصلصة الطماطم."
-                    },
-                    "bolonez": {
-                        "name": "بولونيز",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/bolonez.jpg",
-                        "description": "صلصة بولونيز مصنوعة من اللحم المفروم والكرفس والجزر والبصل، تُقدّم مع صلصة الطماطم."
-                    },
-                    "sosisli": {
-                        "name": "نقانق",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/sosis.jpg",
-                        "description": "تُقدّم مع نقانق لحم البقر 100% وصلصة الطماطم."
-                    },
-                    "anne_kofteli": {
-                        "name": "كرات اللحم الأم",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/anne.jpg",
-                        "description": "تُقدّم مع كرات اللحم وصلصة الطماطم المتبلة الخاصة."
-                    },
-                    "kestane_mantarli": {
-                        "name": "فطر الكستناء",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/kestane.jpg",
-                        "description": "تُقدّم مع فطر الكستناء وكريمة."
-                    },
-                    "4_peynirli": {
-                        "name": "4 جبن",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/peynir.jpg",
-                        "description": "تُقدّم مع جبن روكفور، ميهاليش، بارميزان، وموزاريلا مع كريمة."
-                    },
-                    "feslegen_pestosu": {
-                        "name": "بيستو الريحان",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/pesto.jpg",
-                        "description": "صلصة البيستو المصنوعة من الريحان، الصنوبر، جبن البارميزان، وزيت الزيتون، تُقدّم مع كريمة."
-                    },
-                    "alfredo": {
-                        "name": "ألفريدو",
-                        "small": "orta_small",
-                        "medium": "orta_medium",
-                        "additional": "orta_additional",
-                        "image": "/assets/alfredo.jpg",
-                        "description": "تُقدّم مع لحم الفخذ الدجاج (60/80/100 جرام)، فطر الكستناء، وكريمة."
-                    },
-                    "ton_balikli": {
-                        "name": "تونة",
-                        "small": "ton_small",
-                        "medium": "ton_medium",
-                        "additional": "ton_additional",
-                        "image": "/assets/ton.jpg",
-                        "description": "تُقدّم مع تونة معلبة (50/75/165 جرام)، ذرة حلوة، مخللات، وكريمة."
-                    },
-                    "kavurmali": {
-                        "name": "لحم مشوي",
-                        "small": "kavurma_small",
-                        "medium": "kavurma_medium",
-                        "additional": "kavurma_additional",
-                        "image": "/assets/kavurma.jpg",
-                        "description": "تُقدّم مع لحم مشوي خاص من ريزي (50/75/100 جرام)، فلفل رومي، فطر، وكريمة."
-                    }
+        },
+        "dip_sos": {
+            "name": {
+                "tr": "Dip Sos",
+                "en": "Dip Sauce",
+                "ru": "Соус",
+                "ar": "صلصة"
+            },
+            "href": "dip_sos",
+            "sizes": {
+                "portion": {
+                    "name": "",
+                    "size": ""
                 }
             },
-            "ravioli": {
-                "name": "رافيولي",
-                "href": "ravioli",
-                "sizes": {
-                    "small": {
-                        "name": "صغير",
-                        "size": "25 قطعة"
+            "products": {
+                "sweet_chili_sos": {
+                    "name": {
+                        "tr": "SWEET CHILI SOS",
+                        "en": "SWEET CHILI SAUCE",
+                        "ru": "Сладкий чили соус",
+                        "ar": "صلصة الفلفل الحلو"
                     },
-                    "medium": {
-                        "name": "متوسط",
-                        "size": "30 قطعة"
-                    },
-                    "additional": {
-                        "name": "إضافة",
-                        "size": "5 قطعة"
-                    }
+                    "portion": "sos",
+                    "image": "",
+                    "description": ""
                 },
-                "products": {
-                    "kiymali": {
-                        "name": "لحم مفروم",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "تُقدّم مع لحم مفروم، بانكو، وتوابل."
+                "sarimsakli_yogurtlu_sos": {
+                    "name": {
+                        "tr": "SARIMSAKLI YOĞURTLU SOS",
+                        "en": "GARLIC YOGURT SAUCE",
+                        "ru": "Чесночный йогуртовый соус",
+                        "ar": "صلصة الثوم والزبادي"
                     },
-                    "ispanakli_peynirli": {
-                        "name": "سبانخ وجبن",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "تُقدّم مع سبانخ، جبنة ماسكاربوني، وجبنة بارميزان."
+                    "portion": "sos",
+                    "image": "",
+                    "description": ""
+                },
+                "pestolu_yogurtlu_sos": {
+                    "name": {
+                        "tr": "PESTOLU YOĞURTLU SOS",
+                        "en": "PESTO YOGURT SAUCE",
+                        "ru": "Песто йогуртовый соус",
+                        "ar": "صلصة الزبادي بالبيستو"
                     },
-                    "patates_mantarli": {
-                        "name": "بطاطس وفطر",
-                        "small": "ravioli_ucuz_small",
-                        "medium": "ravioli_ucuz_medium",
-                        "additional": "ravioli_ucuz_additional",
-                        "image": "",
-                        "description": "تُقدّم مع بطاطس، فطر الكستناء، بصل مكرمل، وتوابل."
-                    },
-                    "kizarmis_kiymali": {
-                        "name": "لحم مفروم مقلي",
-                        "small": "ravioli_pahali_small",
-                        "medium": "ravioli_pahali_medium",
-                        "additional": "ravioli_pahali_additional",
-                        "image": "",
-                        "description": "تُقدّم مع لحم مفروم، بانكو، وتوابل."
-                    }
+                    "portion": "sos",
+                    "image": "",
+                    "description": ""
+                }
+            }
+        },
+        "ilave": {
+            "name": {
+                "tr": "İlave",
+                "en": "Additional",
+                "ru": "Дополнительный",
+                "ar": "إضافي"
+            },
+            "href": "ilave",
+            "sizes": {
+                "portion": {
+                    "name": "",
+                    "size": ""
                 }
             },
-            "su_borek": {
-                "name": "بوريك ماء",
-                "href": "su_borek",
-                "sizes": {
-                    "portion": {
-                        "name": "جزء",
-                        "size": ""
+            "products": {
+                "kestane": {
+                    "name": {
+                        "tr": "İlave Kestane (50 gr)",
+                        "en": "Additional Chestnut (50 gr)",
+                        "ru": "Дополнительный Каштан (50 гр)",
+                        "ar": "إضافة كستناء (50 جرام)"
                     },
-                    "half": {
-                        "name": "500 جرام",
-                        "size": ""
-                    }
+                    "portion": "ilave_kestane",
+                    "image": "",
+                    "description": ""
                 },
-                "products": {
-                    "kiymali": {
-                        "name": "لحم مفروم",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/kıyma-su.jpg",
-                        "description": "تُقدّم مع لحم بقر مفروم وبقدونس."
+                "parmesan": {
+                    "name": {
+                        "tr": "İlave Parmesan (20 gr)",
+                        "en": "Additional Parmesan (20 gr)",
+                        "ru": "Дополнительный Пармезан (20 гр)",
+                        "ar": "بارميزان إضافي (20 جرام)"
                     },
-                    "peynirli": {
-                        "name": "جبن",
-                        "portion": "su_borek_porsiyon",
-                        "half": "su_borek_half",
-                        "image": "/assets/peynirli-su.jpg",
-                        "description": "تُقدّم مع جبن إزيني الأبيض وبقدونس."
-                    }
+                    "portion": "ilave_parmesan",
+                    "image": "",
+                    "description": ""
+                },
+                "pesto": {
+                    "name": {
+                        "tr": "İlave Pesto (20 gr)",
+                        "en": "Additional Pesto (20 gr)",
+                        "ru": "Дополнительный Песто (20 гр)",
+                        "ar": "بيستو إضافي (20 جرام)"
+                    },
+                    "portion": "ilave_pesto",
+                    "image": "",
+                    "description": ""
+                },
+                "tavuk": {
+                    "name": {
+                        "tr": "İlave Tavuk (50 gr)",
+                        "en": "Additional Chicken (50 gr)",
+                        "ru": "Дополнительный Курица (50 гр)",
+                        "ar": "دجاج إضافي (50 جرام)"
+                    },
+                    "portion": "ilave_tavuk",
+                    "image": "",
+                    "description": ""
+                },
+                "kavurma": {
+                    "name": {
+                        "tr": "İlave Kavurma (25 gr)",
+                        "en": "Additional Roasted Meat (25 gr)",
+                        "ru": "Дополнительный Жареное мясо (25 гр)",
+                        "ar": "لحم مشوي إضافي (25 جرام)"
+                    },
+                    "portion": "ilave_kavurma",
+                    "image": "",
+                    "description": ""
+                }
+            }
+        },
+        "tatli": {
+            "name": {
+                "tr": "Tatlı",
+                "en": "Dessert",
+                "ru": "Десерт",
+                "ar": "حلوى"
+            },
+            "href": "tatli",
+            "sizes": {
+                "portion": {
+                    "name": "",
+                    "size": ""
                 }
             },
-            "dip_sos": {
-                "name": "صوص غمس",
-                "href": "dip_sos",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
+            "products": {
+                "dondurma_tuzlu_karamel_cikolata_cilek": {
+                    "name": {
+                        "tr": "DONDURMA (120 gr)",
+                        "en": "ICE CREAM (120 gr)",
+                        "ru": "МОРОЖЕНОЕ (120 гр)",
+                        "ar": "آيس كريم (120 جرام)"
+                    },
+                    "portion": "dondurma",
+                    "image": "/assets/dondurma.jpg",
+                    "description": ""
                 },
-                "products": {
-                    "sweet_chili_sos": {
-                        "name": "صوص الفلفل الحلو",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
+                "gurme_dondurma": {
+                    "name": {
+                        "tr": "GURME DONDURMA (120 gr)",
+                        "en": "GOURMET ICE CREAM (120 gr)",
+                        "ru": "ГУРМЕ МОРОЖЕНОЕ (120 гр)",
+                        "ar": "آيس كريم فاخر (120 جرام)"
                     },
-                    "sarimsakli_yogurtlu_sos": {
-                        "name": "صوص الزبادي بالثوم",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
+                    "portion": "gurme_dondurma",
+                    "image": "/assets/gurme.jpg",
+                    "description": ""
+                },
+                "tiramisu": {
+                    "name": {
+                        "tr": "TİRAMİSU",
+                        "en": "TIRAMISU",
+                        "ru": "ТИРАМИСУ",
+                        "ar": "تيراميسو"
                     },
-                    "pestolu_yogurtlu_sos": {
-                        "name": "صوص الزبادي بالبيستو",
-                        "portion": "sos",
-                        "image": "",
-                        "description": ""
-                    }
+                    "portion": "tiramisu",
+                    "image": "/assets/tiramisu.jpg",
+                    "description": ""
+                }
+            }
+        },
+        "soguk": {
+            "name": {
+                "tr": "Soğuk İçecek",
+                "en": "Cold Drink",
+                "ru": "Холодный напиток",
+                "ar": "مشروب بارد"
+            },
+            "href": "soguk",
+            "sizes": {
+                "portion": {
+                    "name": "",
+                    "size": ""
                 }
             },
-            "ilave": {
-                "name": "الإضافات",
-                "href": "ilave",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
+            "products": {
+                "su": {
+                    "name": {
+                        "tr": "SU (200 ml)",
+                        "en": "WATER (200 ml)",
+                        "ru": "ВОДА (200 мл)",
+                        "ar": "ماء (200 مل)"
+                    },
+                    "portion": "su",
+                    "image": "/assets/su.webp",
+                    "description": ""
                 },
-                "products": {
-                    "kestane": {
-                        "name": "فطر كستنائي إضافي (50 غ)",
-                        "portion": "ilave_kestane",
-                        "image": "",
-                        "description": ""
+                "soda": {
+                    "name": {
+                        "tr": "SODA (200 ml)",
+                        "en": "SODA (200 ml)",
+                        "ru": "СОДА (200 мл)",
+                        "ar": "صودا (200 مل)"
                     },
-                    "parmesan": {
-                        "name": "إضافة بارميزان (20 جم)",
-                        "portion": "ilave_parmesan",
-                        "image": "",
-                        "description": ""
+                    "portion": "soda",
+                    "image": "/assets/soda.jpeg",
+                    "description": ""
+                },
+                "meyveli": {
+                    "name": {
+                        "tr": "MEYVELİ SODA (200 ml)",
+                        "en": "FRUIT SODA (200 ml)",
+                        "ru": "ФРУКТОВАЯ СОДА (200 мл)",
+                        "ar": "صودا الفاكهة (200 مل)"
                     },
-                    "pesto": {
-                        "name": "صلصة بيستو إضافية",
-                        "portion": "ilave_pesto",
-                        "image": "",
-                        "description": ""
+                    "portion": "meyveli_soda",
+                    "image": "/assets/soda.jpeg",
+                    "description": ""
+                },
+                "mini_kola": {
+                    "name": {
+                        "tr": "MİNİ KOLA (Şişe 200 ml)",
+                        "en": "MINI COLA (Bottle 200 ml)",
+                        "ru": "МИНИ КОЛА (Бутылка 200 мл)",
+                        "ar": "كولا صغيرة (زجاجة 200 مل)"
                     },
-                    "tavuk": {
-                        "name": "دجاج اضافي (60 جم)",
-                        "portion": "ilave_tavuk",
-                        "image": "",
-                        "description": ""
+                    "portion": "kola",
+                    "image": "",
+                    "description": ""
+                },
+                "mini_sprite": {
+                    "name": {
+                        "tr": "MİNİ SPRİTE (Şişe 200 ml)",
+                        "en": "MINI SPRITE (Bottle 200 ml)",
+                        "ru": "МИНИ СПРАЙТ (Бутылка 200 мл)",
+                        "ar": "سبرايت صغيرة (زجاجة 200 مل)"
                     },
-                    "kavurma": {
-                        "name": "لحم مطهو إضافي (25 جم)",
-                        "portion": "ilave_kavurma",
-                        "image": "",
-                        "description": ""
-                    }
+                    "portion": "kola",
+                    "image": "/assets/sprite.jpg",
+                    "description": ""
+                },
+                "mini_fanta": {
+                    "name": {
+                        "tr": "MİNİ FANTA (Şişe 200 ml)",
+                        "en": "MINI FANTA (Bottle 200 ml)",
+                        "ru": "МИНИ ФАНТА (Бутылка 200 мл)",
+                        "ar": "فانتا صغيرة (زجاجة 200 مل)"
+                    },
+                    "portion": "kola",
+                    "image": "",
+                    "description": ""
+                },
+                "corcil": {
+                    "name": {
+                        "tr": "ÇÖRCİL (245 ml)",
+                        "en": "CHURCHILL (245 ml)",
+                        "ru": "ЧЁРЧИЛ (245 мл)",
+                        "ar": "تشورجيل (245 مل)"
+                    },
+                    "portion": "corcil",
+                    "image": "",
+                    "description": ""
+                },
+                "ozerhisar_ayran": {
+                    "name": {
+                        "tr": "ÖZERHİSAR AYRAN (250 ml)",
+                        "en": "ÖZERHİSAR AYRAN (250 ml)",
+                        "ru": "ОЗЕРХИСАР АЙРАН (250 мл)",
+                        "ar": "أيان أوزرهيسار (250 مل)"
+                    },
+                    "portion": "ayran",
+                    "image": "/assets/ayran.png",
+                    "description": ""
+                },
+                "kola": {
+                    "name": {
+                        "tr": "KOLA (Şişe 300 ml / Kutu 330 ml)",
+                        "en": "COLA (Bottle 300 ml / Can 330 ml)",
+                        "ru": "КОЛА (Бутылка 300 мл / Банка 330 мл)",
+                        "ar": "كولا (زجاجة 300 مل / علبة 330 مل)"
+                    },
+                    "portion": "kola",
+                    "image": "/assets/kola.jpg",
+                    "description": ""
+                },
+                "sprite": {
+                    "name": {
+                        "tr": "SPRITE (Şişe 300 ml / Kutu 330 ml)",
+                        "en": "SPRITE (Bottle 300 ml / Can 330 ml)",
+                        "ru": "СПРАЙТ (Бутылка 300 мл / Банка 330 мл)",
+                        "ar": "سبرايت (زجاجة 300 مل / علبة 330 مل)"
+                    },
+                    "portion": "kola",
+                    "image": "/assets/sprite.jpg",
+                    "description": ""
+                },
+                "fanta": {
+                    "name": {
+                        "tr": "FANTA (Şişe 300 ml / Kutu 330 ml)",
+                        "en": "FANTA (Bottle 300 ml / Can 330 ml)",
+                        "ru": "ФАНТА (Бутылка 300 мл / Банка 330 мл)",
+                        "ar": "فانتا (زجاجة 300 مل / علبة 330 مل)"
+                    },
+                    "portion": "kola",
+                    "image": "",
+                    "description": ""
+                },
+                "fusetea": {
+                    "name": {
+                        "tr": "FUSE TEA (Kutu 330 ml)",
+                        "en": "FUSE TEA (Can 330 ml)",
+                        "ru": "ФЮЗ ТИ (Банка 330 мл)",
+                        "ar": "شاي فوزيتي (علبة 330 مل)"
+                    },
+                    "portion": "kola",
+                    "image": "/assets/fusetea.jpg",
+                    "description": ""
+                },
+                "limonata": {
+                    "name": {
+                        "tr": "LİMONATA (330 ml)",
+                        "en": "LEMONADE (330 ml)",
+                        "ru": "ЛИМОНАД (330 мл)",
+                        "ar": "عصير الليمون (330 مل)"
+                    },
+                    "portion": "limonata",
+                    "image": "",
+                    "description": ""
+                }
+            }
+        },
+        "sicak": {
+            "name": {
+                "tr": "Sıcak İçecek",
+                "en": "Hot Drink",
+                "ru": "Горячий напиток",
+                "ar": "مشروب ساخن"
+            },
+            "href": "sicak",
+            "sizes": {
+                "portion": {
+                    "name": "",
+                    "size": ""
                 }
             },
-            "tatli": {
-                "name": "حلوى",
-                "href": "tatli",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
+            "products": {
+                "cay": {
+                    "name": {
+                        "tr": "ÇAY",
+                        "en": "TEA",
+                        "ru": "ЧАЙ",
+                        "ar": "شاي"
+                    },
+                    "portion": "cay",
+                    "image": "",
+                    "description": ""
                 },
-                "products": {
-                    "dondurma_tuzlu_karamel_cikolata_cilek": {
-                        "name": "آيس كريم (120 غ)",
-                        "portion": "dondurma",
-                        "image": "/assets/dondurma.jpg",
-                        "description": ""
+                "turk_kahvesi": {
+                    "name": {
+                        "tr": "TÜRK KAHVESİ",
+                        "en": "TURKISH COFFEE",
+                        "ru": "ТУРЕЦКИЙ КОФЕ",
+                        "ar": "قهوة تركية"
                     },
-                    "gurme_dondurma": {
-                        "name": "آيس كريم جورميه (120 غ)",
-                        "portion": "gurme_dondurma",
-                        "image": "/assets/gurme.jpg",
-                        "description": ""
-                    },
-                    "tiramisu": {
-                        "name": "تيراميسو",
-                        "portion": "tiramisu",
-                        "image": "/assets/tiramisu.jpg",
-                        "description": ""
-                    }
-                }
-            },
-            "soguk": {
-                "name": "مشروبات باردة",
-                "href": "soguk",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
+                    "portion": "turk_kahvesi",
+                    "image": "",
+                    "description": ""
                 },
-                "products": {
-                    "su": {
-                        "name": "ماء (500 مل)",
-                        "portion": "su",
-                        "image": "/assets/su.webp",
-                        "description": ""
+                "espresso": {
+                    "name": {
+                        "tr": "ESPRESSO",
+                        "en": "ESPRESSO",
+                        "ru": "ЭСПРЕССО",
+                        "ar": "اسبريسو"
                     },
-                    "soda": {
-                        "name": "صودا (200 مل)",
-                        "portion": "soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "meyveli_soda": {
-                        "name": "صودا الفواكه (200 مل)",
-                        "portion": "meyveli_soda",
-                        "image": "/assets/soda.jpeg",
-                        "description": ""
-                    },
-                    "mini_kola": {
-                        "name": "كوكا كولا ميني (زجاجة 200 مل)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "mini_sprite": {
-                        "name": "سبرايت ميني (زجاجة 200 مل)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "mini_fanta": {
-                        "name": "فانتا ميني (زجاجة 200 مل)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "corcil": {
-                        "name": "تشرتشل (200 مل)",
-                        "portion": "corcil",
-                        "image": "",
-                        "description": ""
-                    },
-                    "ozerhisar_ayran": {
-                        "name": "أوزيرحصار آيران (245 مل)",
-                        "portion": "ayran",
-                        "image": "/assets/ayran.png",
-                        "description": ""
-                    },
-                    "kola": {
-                        "name": "كوكا كولا (زجاجة 300 مل / علبة 350 مل)",
-                        "portion": "kola",
-                        "image": "/assets/kola.jpg",
-                        "description": ""
-                    },
-                    "sprite": {
-                        "name": "سبرايت (زجاجة 300 مل / علبة 350 مل)",
-                        "portion": "kola",
-                        "image": "/assets/sprite.jpg",
-                        "description": ""
-                    },
-                    "fanta": {
-                        "name": "فانتا (زجاجة 300 مل / علبة 350 مل)",
-                        "portion": "kola",
-                        "image": "",
-                        "description": ""
-                    },
-                    "fusetea": {
-                        "name": "فيوزتي (زجاجة 300 مل / علبة 350 مل)",
-                        "portion": "kola",
-                        "image": "/assets/fusetea.jpg",
-                        "description": ""
-                    },
-                    "limonata": {
-                        "name": "ليمونادة (330 مل)",
-                        "portion": "limonata",
-                        "image": "",
-                        "description": ""
-                    }
-                }
-            },
-            "sicak": {
-                "name": "مشروبات ساخنة",
-                "href": "sicak",
-                "sizes": {
-                    "portion": {
-                        "name": "",
-                        "size": ""
-                    }
+                    "portion": "espresso",
+                    "image": "",
+                    "description": ""
                 },
-                "products": {
-                    "cay": {
-                        "name": "شاي",
-                        "portion": "cay",
-                        "image": "",
-                        "description": ""
+                "double_espresso": {
+                    "name": {
+                        "tr": "DOUBLE ESPRESSO",
+                        "en": "DOUBLE ESPRESSO",
+                        "ru": "ДВОЙНОЙ ЭСПРЕССО",
+                        "ar": "اسبريسو مزدوج"
                     },
-                    "turk_kahvesi": {
-                        "name": "قهوة تركية",
-                        "portion": "turk_kahvesi",
-                        "image": "",
-                        "description": ""
+                    "portion": "double_espresso",
+                    "image": "",
+                    "description": ""
+                },
+                "americano": {
+                    "name": {
+                        "tr": "AMERİCANO",
+                        "en": "AMERICANO",
+                        "ru": "АМЕРИКАНО",
+                        "ar": "أمريكانو"
                     },
-                    "espresso": {
-                        "name": "إسبريسو",
-                        "portion": "espresso",
-                        "image": "",
-                        "description": ""
-                    },
-                    "double_espresso": {
-                        "name": "إسبريسو مزدوج",
-                        "portion": "double_espresso",
-                        "image": "",
-                        "description": ""
-                    },
-                    "americano": {
-                        "name": "أمريكانو",
-                        "portion": "americano",
-                        "image": "",
-                        "description": ""
-                    }
+                    "portion": "americano",
+                    "image": "",
+                    "description": ""
                 }
             }
         }

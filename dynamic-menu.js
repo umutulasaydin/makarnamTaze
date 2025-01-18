@@ -32,14 +32,14 @@ fetch(jsonPath)
     .catch(error => console.error("Failed to load JSON:", error));
 
 function renderPage(data, lang) {
-    const translations = data[lang];
+    const translations = data;
     if (!translations) {
         console.error(`Language "${lang}" not found.`);
         return;
     }
 
     // Update header info
-    document.getElementById("header-info").textContent = translations["header-info"];
+    document.getElementById("header-info").textContent = translations["header-info"][lang];
 
 
 
@@ -47,8 +47,8 @@ function renderPage(data, lang) {
     document.getElementById("info").innerHTML = `
         <img src="${translations["footer-img-url"]}" alt="Yerli üretim" class="info">
         <div>
-            <p> ${translations["footer-info"]}</p>
-            <p> ${translations["footer-info2"]}</p>
+            <p> ${translations["footer-info"][lang]}</p>
+            <p> ${translations["footer-info2"][lang]}</p>
         </div>
     `;
 
@@ -70,13 +70,13 @@ function renderPage(data, lang) {
         const section = sections[sectionKey];
         const scrollContent = document.createElement("a");
         scrollContent.href = "#" + section.href;
-        scrollContent.textContent = section.name;
+        scrollContent.textContent = section.name[lang];
         document.getElementById("scrollmenu").appendChild(scrollContent);
         // Section Header
         const sectionHeader = document.createElement("div");
         sectionHeader.id = "menu-header";
         sectionHeader.innerHTML = `
-            <h1>${section.name}</h1>
+            <h1>${section.name[lang]}</h1>
         `;
 
         // Append to menu container
@@ -91,7 +91,7 @@ function renderPage(data, lang) {
             const info = document.createElement("div");
             info.id = "info2";
             info.innerHTML = `
-                <h3>${section.info}</h3>
+                <h3>${section.info[lang]}</h3>
             `;
             menuContainer.appendChild(info);
         }
@@ -116,7 +116,7 @@ function renderPage(data, lang) {
                     sizePriceContent = document.createElement("div");
                     sizePriceContent.className = "size-price-pair";
                     sizePriceContent.innerHTML = `
-                        <span>${section.sizes[sizeKey].name} ${section.sizes[sizeKey].size}</span>
+                        <span>${section.sizes[sizeKey].name[lang] ? section.sizes[sizeKey].name[lang] : ""} ${section.sizes[sizeKey].size[lang] ? section.sizes[sizeKey].size[lang]: ""}</span>
                         <span>₺${data.prices[product[sizeKey]]}</span>
                     `;
                     priceContent.appendChild(sizePriceContent);
@@ -125,15 +125,15 @@ function renderPage(data, lang) {
                 if (product.image != ""){
                     const imageProduct = document.createElement("img")
                     imageProduct.src = product.image
-                    imageProduct.alt = product.name
+                    imageProduct.alt = product.name[lang]
                     imageProduct.className = "item-image"
                     productDiv.appendChild(imageProduct)
                 }
 
                 productDiv.innerHTML += `
-                    <h2>${product.name}</h2>
+                    <h2>${product.name[lang]}</h2>
                     ${priceContent.outerHTML}
-                    <p>${product.description}</p>
+                    <p>${product.description[lang] ? product.description[lang] : ""}</p>
                 `;
                 sectionContent.appendChild(productDiv);
             });
