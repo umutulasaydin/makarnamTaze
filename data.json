@@ -23,16 +23,21 @@
         "ravioli_pahali_medium": 420,
         "ravioli_pahali_additional": 70,
         "sos": 25,
-        "su_borek_porsiyon": 130,
-        "su_borek_half": 390,
+        "pizza": 300,
+        "karisik_pizza": 330,
+        "ilave_zeytin": 10,
+        "ilave_misir": 10,
         "ilave_kestane": 30,
         "ilave_parmesan": 40,
         "ilave_pesto": 50,
         "ilave_tavuk": 40,
         "ilave_kavurma": 60,
-        "dondurma": 90,
-        "gurme_dondurma": 150,
-        "tiramisu": 150,
+        "ilave_sucuk": 30,
+        "ilave_mozerella": 50,
+        "ilave_suda_mozerella": 60,
+        "dondurma": 120,
+        "gurme_dondurma": 190,
+        "tiramisu": 190,
         "su": 30,
         "soda": 40,
         "meyveli_soda": 45,
@@ -60,10 +65,10 @@
         "ar": "تشمل أسعارنا ضريبة القيمة المضافة وجميع الضرائب."
     },
     "footer-info2": {
-        "tr": "Fiyat değişiklik tarihi 18/01/2025",
-        "en": "Price change date 18/01/2025",
-        "ru": "Дата изменения цены 18/01/2025",
-        "ar": "تاريخ تغيير السعر 18/01/2025"
+        "tr": "Fiyat değişiklik tarihi 20/04/2025",
+        "en": "Price change date 20/04/2025",
+        "ru": "Дата изменения цены 20/04/2025",
+        "ar": "تاريخ تغيير السعر 20/04/2025"
     },
     "footer-img-url": "/assets/yerli-uretim.png",
     "sections": {
@@ -453,67 +458,93 @@
                 }
             }
         },
-        "su_borek": {
+        "pizza": {
             "name": {
-                "tr": "Su Böreği",
-                "en": "Water Pastry",
-                "ru": "Водный борек",
-                "ar": "ماء بوريك"
+                "tr": "Pizza",
+                "en": "Pizza",
+                "ru": "ПИЦЦЫ",
+                "ar": "بيزاس"
             },
-            "href": "su_borek",
+            "href": "pizza",
             "sizes": {
-                "portion": {
+                "normal": {
                     "name": {
-                        "tr": "Porsiyon",
-                        "en": "Portion",
-                        "ru": "Порция",
-                        "ar": "قطعة"
+                        "tr": "",
+                        "en": "",
+                        "ru": "",
+                        "ar": ""
                     },
-                    "size": ""
-                },
-                "half": {
-                    "name": {
-                        "tr": "500 gr",
-                        "en": "500 gr",
-                        "ru": "500 гр",
-                        "ar": "500 جرام"
-                    },
-                    "size": ""
+                    "size": {
+                        "tr": "28 cm",
+                        "en": "28 cm",
+                        "ru": "28 cm",
+                        "ar": "28 سم"
+                    }
                 }
             },
             "products": {
-                "kiymali": {
+                "margarita": {
                     "name": {
-                        "tr": "Kıymalı",
-                        "en": "MINCED MEAT",
-                        "ru": "МЯСОМ",
-                        "ar": "لحم مفروم"
+                        "tr": "MARGARİTA",
+                        "en": "MARGARITA",
+                        "ru": "МАРГАРИТА",
+                        "ar": "مارجريتا"
                     },
-                    "portion": "su_borek_porsiyon",
-                    "half": "su_borek_half",
-                    "image": "/assets/kıyma-su.jpg",
+                    "normal": "pizza",
+                    "image": "",
                     "description": {
-                        "tr": "Dana Kıyma ve Maydanoz ile servis edilir.",
-                        "en": "Served with Beef Mince and Parsley.",
-                        "ru": "Подается с говяжьим фаршем и петрушкой.",
-                        "ar": "تُقدّم مع لحم بقر مفروم وبقدونس."
+                        "tr": "Domates Sosu, Suda Mozerella Peyniri ve Taze Fesleğen yaprakları ile servis edilir.",
+                        "en": "Served with tomato sauce, Mozerella cheese in water and fresh basil leaves.",
+                        "ru": "Подается с томатным соусом, сыром Мозерелла в воде и листьями свежего базилика.",
+                        "ar": "تتُقدم مع صلصة الطماطم وجبنة موزيريلا بالماء وأوراق الريحان الطازجة."
                     }
                 },
-                "peynirli": {
+                "bol_sucuklu": {
                     "name": {
-                        "tr": "Peynirli",
-                        "en": "CHEESE",
-                        "ru": "СЫР",
-                        "ar": "جبن"
+                        "tr": "BOL SUCUKLU",
+                        "en": "LOTS OF SAUCE",
+                        "ru": "МНОГО СОУСА",
+                        "ar": "الكثير من الصلصة"
                     },
-                    "portion": "su_borek_porsiyon",
-                    "half": "su_borek_half",
-                    "image": "/assets/peynirli-su.jpg",
+                    "normal": "pizza",
+                    "image": "",
                     "description": {
-                        "tr": "Ezine Beyaz Peynir ve Maydanoz ile servis edilir.",
-                        "en": "Served with Ezine White Cheese and Parsley.",
-                        "ru": "Подается с сыром Эзине и петрушкой.",
-                        "ar": "تُقدّم مع جبن إزيني الأبيض وبقدونس."
+                        "tr": "Domates Sosu, Mozerella Peyniri, %100 Dana Sucuk ile servis edilir.",
+                        "en": "Served with Tomato Sauce, Mozerella Cheese, 100% Beef Sausage.",
+                        "ru": "Подается с томатным соусом, сыром Мозерелла и 100% телячьей колбасой.",
+                        "ar": "يُقدم مع صلصة الطماطم، جبنة موزيريلا ونقانق لحم العجل 100%."
+                    }
+                },
+                "4_peynir": {
+                    "name": {
+                        "tr": "4 PEYNİR",
+                        "en": "4 CHEESE",
+                        "ru": "4 СЫРА",
+                        "ar": "4 جبن"
+                    },
+                    "normal": "pizza",
+                    "image": "",
+                    "description": {
+                        "tr": "Domates Sosu, Mozerella Peyniri, Rokfor, Mihaliç, Parmesan ile servis edilir",
+                        "en": "Served with Tomato Sauce, Mozerella Cheese, Roquefort, Mihaliç, Parmesan",
+                        "ru": "Подается с томатным соусом, сыром Мозерелла, Рокфор, Михалыч, Пармезан",
+                        "ar": "يُقدم مع صوص الطماطم، جبنة موزيريلا، روكفورت، ميهاليتش، بارميزان"
+                    }
+                },
+                "karisik": {
+                    "name": {
+                        "tr": "KARIŞIK",
+                        "en": "MIXED",
+                        "ru": "СМЕШАННЫЕ",
+                        "ar": "مختلط"
+                    },
+                    "normal": "karisik_pizza",
+                    "image": "",
+                    "description": {
+                        "tr": "Domates Sosu, Mozerella Peyniri, Sucuk, Sosis, Kapya Biber, Mantar, Mısır, Yeşil Zeytin, Siyah Zeytin ile servis edilir.",
+                        "en": "Served with Tomato Sauce, Mozerella Cheese, Sausage, Sausage, Capia Pepper, Mushrooms, Corn, Green Olives, Black Olives.",
+                        "ru": "Подается с томатным соусом, сыром Мозерелла, колбасой, сосисками, капийским перцем, грибами, кукурузой, зелеными оливками, черными оливками.",
+                        "ar": "يقدم مع صوص طماطم، جبنة موزيريلا، سجق، سجق، فلفل كابيا، فلفل، فطر، ذرة، زيتون أخضر، زيتون أسود."
                     }
                 }
             }
@@ -565,15 +596,26 @@
                     "portion": "sos",
                     "image": "",
                     "description": ""
+                },
+                "aci_sos": {
+                    "name": {
+                        "tr": "ACI SOS",
+                        "en": "CHILI SAUCE",
+                        "ru": "ГОРЬКИЙ СОС",
+                        "ar": "الصلصة الحارة"
+                    },
+                    "portion": "sos",
+                    "image": "",
+                    "description": ""
                 }
             }
         },
-        "ilave": {
+        "makarna_ilave": {
             "name": {
-                "tr": "İlave",
-                "en": "Additional",
-                "ru": "Дополнительный",
-                "ar": "إضافي"
+                "tr": "Makarna İlave",
+                "en": "Pasta Addition",
+                "ru": "Добавки к макаронам",
+                "ar": "إضافات المعكرونة"
             },
             "href": "ilave",
             "sizes": {
@@ -583,6 +625,28 @@
                 }
             },
             "products": {
+                "zeytin": {
+                    "name": {
+                        "tr": "İlave Zeytin",
+                        "en": "Extra Olive",
+                        "ru": "Дополнительная оливка",
+                        "ar": "زيتون إضافي"
+                    },
+                    "portion": "ilave_zeytin",
+                    "image": "",
+                    "description": ""
+                },
+                "misir": {
+                    "name": {
+                        "tr": "İlave Mısır",
+                        "en": "Extra Corn",
+                        "ru": "Дополнительная кукуруза",
+                        "ar": "ذرة إضافية"
+                    },
+                    "portion": "ilave_misir",
+                    "image": "",
+                    "description": ""
+                },
                 "kestane": {
                     "name": {
                         "tr": "İlave Kestane (50 gr)",
@@ -640,12 +704,123 @@
                 }
             }
         },
+      "pizza_ilave": {
+            "name": {
+                "tr": "Pizza İlave",
+                "en": "Pasta Addition",
+                "ru": "Начинки для пиццы",
+                "ar": "إضافات البيتزا"
+            },
+            "href": "ilave",
+            "sizes": {
+                "portion": {
+                    "name": "",
+                    "size": ""
+                }
+            },
+            "products": {
+                "zeytin": {
+                    "name": {
+                        "tr": "İlave Zeytin",
+                        "en": "Extra Olive",
+                        "ru": "Дополнительная оливка",
+                        "ar": "زيتون إضافي"
+                    },
+                    "portion": "ilave_zeytin",
+                    "image": "",
+                    "description": ""
+                },
+                "misir": {
+                    "name": {
+                        "tr": "İlave Mısır",
+                        "en": "Extra Corn",
+                        "ru": "Дополнительная кукуруза",
+                        "ar": "ذرة إضافية"
+                    },
+                    "portion": "ilave_misir",
+                    "image": "",
+                    "description": ""
+                },
+                "sucuk": {
+                    "name": {
+                        "tr": "İlave Sucuk (35 gr)",
+                        "en": "Additional Sausage (35 gr)",
+                        "ru": "Колбаса (35 гр)",
+                        "ar": "سجق إضافي (35 غرام)"
+                    },
+                    "portion": "ilave_sucuk",
+                    "image": "",
+                    "description": ""
+                },
+                "kestane": {
+                    "name": {
+                        "tr": "İlave Kestane (50 gr)",
+                        "en": "Additional Chestnut (50 gr)",
+                        "ru": "Дополнительный Каштан (50 гр)",
+                        "ar": "إضافة كستناء (50 جرام)"
+                    },
+                    "portion": "ilave_kestane",
+                    "image": "",
+                    "description": ""
+                },
+                "parmesan": {
+                    "name": {
+                        "tr": "İlave Parmesan (20 gr)",
+                        "en": "Additional Parmesan (20 gr)",
+                        "ru": "Дополнительный Пармезан (20 гр)",
+                        "ar": "بارميزان إضافي (20 جرام)"
+                    },
+                    "portion": "ilave_parmesan",
+                    "image": "",
+                    "description": ""
+                },
+                "mozerella": {
+                    "name": {
+                        "tr": "İlave Mozerella (50 gr)",
+                        "en": "Extra Mozerella (50 gr)",
+                        "ru": "Дополнительная моцералла (50 г)",
+                        "ar": "موزيريلا إضافية (50 جم)"
+                    },
+                    "portion": "ilave_mozerella",
+                    "image": "",
+                    "description": ""
+                },
+                "suda_mozerella": {
+                    "name": {
+                        "tr": "İlave Suda Mozerella (30 gr)",
+                        "en": "Extra Mozerella in Water (30 gr)",
+                        "ru": "Мозерелла в дополнительной воде (30 г)",
+                        "ar": "موزيريلا في ماء إضافي (30 جم)"
+                    },
+                    "portion": "ilave_suda_mozerella",
+                    "image": "",
+                    "description": ""
+                },
+                "kavurma": {
+                    "name": {
+                        "tr": "İlave Kavurma (25 gr)",
+                        "en": "Additional Roasted Meat (25 gr)",
+                        "ru": "Дополнительный Жареное мясо (25 гр)",
+                        "ar": "لحم مشوي إضافي (25 جرام)"
+                    },
+                    "portion": "ilave_kavurma",
+                    "image": "",
+                    "description": ""
+                }
+            }
+        },
         "tatli": {
             "name": {
                 "tr": "Tatlı",
                 "en": "Dessert",
                 "ru": "Десерт",
                 "ar": "حلوى"
+            },
+            "info": {
+                "tr": "Dondurma çeşitleri için servis personeline danışınız.",
+                "en": "Please consult the service staff for ice cream varieties",
+                "ru": "НПосоветуйтесь с обслуживающим персоналом по поводу вкуса мороженого.",
+                "ar": "استشر موظفي الخدمة لمعرفة نكهات الآيس كريم."
             },
             "href": "tatli",
             "sizes": {
