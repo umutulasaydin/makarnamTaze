@@ -4,27 +4,27 @@
         "phone": "+90 533 399 95 67"
     },
     "prices": {
-        "ucuz_small": 240,
-        "ucuz_medium": 280,
-        "ucuz_additional": 40,
-        "orta_small": 310,
-        "orta_medium": 360,
-        "orta_additional": 50,
-        "ton_small": 315,
-        "ton_medium": 380,
-        "ton_additional": 105,
+        "ucuz_small": 275,
+        "ucuz_medium": 320,
+        "ucuz_additional": 45,
+        "orta_small": 350,
+        "orta_medium": 410,
+        "orta_additional": 60,
+        "ton_small": 350,
+        "ton_medium": 410,
+        "ton_additional": 60,
         "kavurma_small": 370,
         "kavurma_medium": 430,
         "kavurma_additional": 60,
-        "ravioli_ucuz_small": 310,
-        "ravioli_ucuz_medium": 375,
-        "ravioli_ucuz_additional": 60,
+        "ravioli_ucuz_small": 350,
+        "ravioli_ucuz_medium": 420,
+        "ravioli_ucuz_additional": 70,
         "ravioli_pahali_small": 350,
         "ravioli_pahali_medium": 420,
         "ravioli_pahali_additional": 70,
         "sos": 25,
-        "pizza": 300,
-        "karisik_pizza": 330,
+        "pizza": 350,
+        "karisik_pizza": 385,
         "ilave_zeytin": 10,
         "ilave_misir": 10,
         "ilave_kestane": 30,
@@ -35,17 +35,17 @@
         "ilave_sucuk": 30,
         "ilave_mozerella": 50,
         "ilave_suda_mozerella": 60,
-        "dondurma": 120,
-        "gurme_dondurma": 190,
+        "dondurma": 150,
+        "gurme_dondurma": 220,
         "tiramisu": 190,
         "su": 30,
-        "soda": 40,
+        "soda": 45,
         "meyveli_soda": 45,
-        "corcil": 80,
-        "ayran": 85,
-        "kola": 80,
-        "limonata": 100,
-        "mini": 50,
+        "corcil": 100,
+        "ayran": 90,
+        "kola": 90,
+        "limonata": 120,
+        "mini": 60,
         "turk_kahvesi": 80,
         "espresso": 60,
         "double_espresso": 80,
@@ -65,9 +65,9 @@
         "ar": "تشمل أسعارنا ضريبة القيمة المضافة وجميع الضرائب."
     },
     "footer-info2": {
-        "tr": "Fiyat değişiklik tarihi 20/04/2025",
-        "en": "Price change date 20/04/2025",
-        "ru": "Дата изменения цены 20/04/2025",
+        "tr": "Fiyat değişiklik tarihi 03/07/2025",
+        "en": "Price change date 03/07/2025",
+        "ru": "Дата изменения цены 03/07/2025",
         "ar": "تاريخ تغيير السعر 20/04/2025"
     },
     "footer-img-url": "/assets/yerli-uretim.png",
@@ -310,24 +310,6 @@
                         "ru": "Подается с консервированным тунцом (50/75/165 гр), сладкой кукурузой, солеными огурцами и сливками.",
                         "ar": "تُقدّم مع تونة معلبة (50/75/165 جرام)، ذرة حلوة، مخللات، وكريمة."
                     }
-                },
-                "kavurmali": {
-                    "name": {
-                        "tr": "KAVURMALI",
-                        "en": "WITH ROASTED MEAT",
-                        "ru": "С ЖАРЕНЫМ МЯСОМ",
-                        "ar": "مع لحم مشوي"
-                    },
-                    "small": "kavurma_small",
-                    "medium": "kavurma_medium",
-                    "additional": "kavurma_additional",
-                    "image": "/assets/kavurma.jpg",
-                    "description": {
-                        "tr": "50/75/100 gr. Özel Rize Kavurması, Biber, Mantar ve Krema ile servis edilir.",
-                        "en": "Served with Special Rize Roasted Meat (50/75/100 gr), Bell Pepper, Mushrooms, and Cream.",
-                        "ru": "Подается с особым жареным мясом из Ризе (50/75/100 гр), болгарским перцем, грибами и сливками.",
-                        "ar": "تُقدّم مع لحم مشوي خاص من ريزي (50/75/100 جرام)، فلفل رومي، فطر، وكريمة."
-                    }
                 }
             }
         },
@@ -436,24 +418,6 @@
                         "en": "Served with Potato, Chestnut Mushrooms, Caramelized Onion, and Spices.",
                         "ru": "Подается с картошкой, каштановыми грибами, карамелизированным луком и специями.",
                         "ar": "تُقدّم مع بطاطس، فطر الكستناء، بصل مكرمل، وتوابل."
-                    }
-                },
-                "kizarmis_kiymali": {
-                    "name": {
-                        "tr": "Kızarmış Kıymalı",
-                        "en": "FRIED MINCED MEAT",
-                        "ru": "ЖАРЕНОЕ МЯСО",
-                        "ar": "لحم مفروم مقلي"
-                    },
-                    "small": "ravioli_pahali_small",
-                    "medium": "ravioli_pahali_medium",
-                    "additional": "ravioli_pahali_additional",
-                    "image": "",
-                    "description": {
-                        "tr": "Kıyma, Panko ve baharatlar ile servis edilir.",
-                        "en": "Served with minced meat, panko, and spices.",
-                        "ru": "Подается с мясным фаршем, панко и специями.",
-                        "ar": "تُقدّم مع لحم مفروم، بانكو، وتوابل."
                     }
                 }
             }
