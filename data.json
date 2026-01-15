@@ -4,53 +4,54 @@
         "phone": "+90 533 399 95 67"
     },
     "prices": {
-        "ucuz_small": 275,
-        "ucuz_medium": 320,
-        "ucuz_additional": 45,
-        "orta_small": 350,
-        "orta_medium": 410,
-        "orta_additional": 60,
-        "ton_small": 350,
-        "ton_medium": 410,
-        "ton_additional": 60,
-        "kavurma_small": 370,
-        "kavurma_medium": 430,
-        "kavurma_additional": 60,
-        "ravioli_ucuz_small": 350,
-        "ravioli_ucuz_medium": 420,
-        "ravioli_ucuz_additional": 70,
-        "ravioli_pahali_small": 350,
-        "ravioli_pahali_medium": 420,
-        "ravioli_pahali_additional": 70,
-        "sos": 25,
-        "pizza": 350,
-        "karisik_pizza": 385,
+        "ucuz_small": 320,
+        "ucuz_medium": 380,
+        "ucuz_additional": 60,
+        "orta_small": 400,
+        "orta_medium": 470,
+        "orta_additional": 70,
+        "ton_small": 420,
+        "ton_medium": 490,
+        "ton_additional": 70,
+        "kavurma_small": 470,
+        "kavurma_medium": 550,
+        "kavurma_additional": 80,
+        "ravioli_ucuz_small": 400,
+        "ravioli_ucuz_medium": 480,
+        "ravioli_ucuz_additional": 80,
+        "ravioli_pahali_small": 425,
+        "ravioli_pahali_medium": 510,
+        "ravioli_pahali_additional": 85,
+        "sos": 30,
+        "pizza": 420,
+        "karisik_pizza": 470,
         "ilave_zeytin": 10,
         "ilave_misir": 10,
-        "ilave_kestane": 30,
-        "ilave_parmesan": 40,
-        "ilave_pesto": 50,
-        "ilave_tavuk": 40,
-        "ilave_kavurma": 60,
-        "ilave_sucuk": 30,
-        "ilave_mozerella": 50,
-        "ilave_suda_mozerella": 60,
-        "dondurma": 150,
-        "gurme_dondurma": 220,
-        "tiramisu": 190,
-        "su": 30,
-        "soda": 45,
-        "meyveli_soda": 45,
-        "corcil": 100,
-        "ayran": 90,
-        "kola": 90,
-        "limonata": 120,
-        "mini": 60,
-        "turk_kahvesi": 80,
-        "espresso": 60,
-        "double_espresso": 80,
-        "americano": 90,
-        "cay": 40
+        "ilave_kestane": 35,
+        "ilave_parmesan": 50,
+        "ilave_pesto": 60,
+        "ilave_tavuk": 50,
+        "ilave_kavurma": 70,
+        "ilave_sucuk": 35,
+        "ilave_mozerella": 55,
+        "ilave_suda_mozerella": 65,
+        "dondurma": 180,
+        "gurme_dondurma": 250,
+        "tiramisu": 250,
+        "su": 35,
+        "soda": 60,
+        "meyveli_soda": 70,
+        "corcil": 120,
+        "ayran": 110,
+        "kola": 110,
+        "limonata": 150,
+        "mini": 70,
+        "turk_kahvesi": 100,
+        "espresso": 90,
+        "double_espresso": 140,
+        "americano": 140,
+        "cay": 40,
+        "uzum": 150
     },
     "header-info": {
         "tr": "Tüm ürünlerimizde sızma zeytinyağı, tereyağ bulunmaktadır.",
@@ -65,9 +66,9 @@
         "ar": "تشمل أسعارنا ضريبة القيمة المضافة وجميع الضرائب."
     },
     "footer-info2": {
-        "tr": "Fiyat değişiklik tarihi 03/07/2025",
-        "en": "Price change date 03/07/2025",
-        "ru": "Дата изменения цены 03/07/2025",
+        "tr": "Fiyat değişiklik tarihi 15/01/2026",
+        "en": "Price change date 15/01/2026",
+        "ru": "Дата изменения цены 15/01/2026",
         "ar": "تاريخ تغيير السعر 20/04/2025"
     },
     "footer-img-url": "/assets/yerli-uretim.png",
@@ -167,6 +168,42 @@
                         "ar": "تُقدّم مع صلصة حارة مصنوعة من الفلفل الحار وصلصة الطماطم."
                     }
                 },
+                "alfredo": {
+                    "name": {
+                        "tr": "ALFREDO",
+                        "en": "ALFREDO",
+                        "ru": "АЛЬФРЕДО",
+                        "ar": "ألفريدو"
+                    },
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/alfredo.jpg",
+                    "description": {
+                        "tr": "60/80/100 gr. Tavuk But Eti, Kestane mantarı, Krema ile servis edilir.",
+                        "en": "Served with Chicken Thigh Meat (60/80/100 gr), Chestnut Mushrooms, and Cream.",
+                        "ru": "Подается с куриным мясом бедра (60/80/100 гр), каштановыми грибами и сливками.",
+                        "ar": "تُقدّم مع لحم الفخذ الدجاج (60/80/100 جرام)، فطر الكستناء، وكريمة."
+                    }
+                },
+                "feslegen_pestosu": {
+                    "name": {
+                        "tr": "FESLEĞEN PESTOSU",
+                        "en": "BASIL PESTO",
+                        "ru": "БАЗИЛИК ПЕСТО",
+                        "ar": "صلصة الريحان"
+                    },
+                    "small": "orta_small",
+                    "medium": "orta_medium",
+                    "additional": "orta_additional",
+                    "image": "/assets/pesto.jpg",
+                    "description": {
+                        "tr": "Fesleğen, Çam Fıstığı, Parmesan peyniri, Zeytinyağı ile hazırladığımız pesto sosumuz, Krema ile servis edilir.",
+                        "en": "Basil, Pine Nuts, Parmesan Cheese, Olive Oil pesto sauce, served with Cream.",
+                        "ru": "Песто из базилика, кедровых орехов, пармезана и оливкового масла, подается со сливками.",
+                        "ar": "صلصة البيستو المصنوعة من الريحان، الصنوبر، جبن البارميزان، وزيت الزيتون، تُقدّم مع كريمة."
+                    }
+                },
                 "bolonez": {
                     "name": {
                         "tr": "BOLOGNESE",
@@ -257,42 +294,6 @@
                         "ar": "تُقدّم مع جبن روكفور، ميهاليش، بارميزان، وموزاريلا مع كريمة."
                     }
                 },
-                "feslegen_pestosu": {
-                    "name": {
-                        "tr": "FESLEĞEN PESTOSU",
-                        "en": "BASIL PESTO",
-                        "ru": "БАЗИЛИК ПЕСТО",
-                        "ar": "صلصة الريحان"
-                    },
-                    "small": "orta_small",
-                    "medium": "orta_medium",
-                    "additional": "orta_additional",
-                    "image": "/assets/pesto.jpg",
-                    "description": {
-                        "tr": "Fesleğen, Çam Fıstığı, Parmesan peyniri, Zeytinyağı ile hazırladığımız pesto sosumuz, Krema ile servis edilir.",
-                        "en": "Basil, Pine Nuts, Parmesan Cheese, Olive Oil pesto sauce, served with Cream.",
-                        "ru": "Песто из базилика, кедровых орехов, пармезана и оливкового масла, подается со сливками.",
-                        "ar": "صلصة البيستو المصنوعة من الريحان، الصنوبر، جبن البارميزان، وزيت الزيتون، تُقدّم مع كريمة."
-                    }
-                },
-                "alfredo": {
-                    "name": {
-                        "tr": "ALFREDO",
-                        "en": "ALFREDO",
-                        "ru": "АЛЬФРЕДО",
-                        "ar": "ألفريدو"
-                    },
-                    "small": "orta_small",
-                    "medium": "orta_medium",
-                    "additional": "orta_additional",
-                    "image": "/assets/alfredo.jpg",
-                    "description": {
-                        "tr": "60/80/100 gr. Tavuk But Eti, Kestane mantarı, Krema ile servis edilir.",
-                        "en": "Served with Chicken Thigh Meat (60/80/100 gr), Chestnut Mushrooms, and Cream.",
-                        "ru": "Подается с куриным мясом бедра (60/80/100 гр), каштановыми грибами и сливками.",
-                        "ar": "تُقدّم مع لحم الفخذ الدجاج (60/80/100 جرام)، فطر الكستناء، وكريمة."
-                    }
-                },
                 "ton_balikli": {
                     "name": {
                         "tr": "TON BALIKLI",
@@ -309,6 +310,24 @@
                         "en": "Served with Canned Tuna Fish (50/75/165 gr), Sweet Corn, Pickles, and Cream.",
                         "ru": "Подается с консервированным тунцом (50/75/165 гр), сладкой кукурузой, солеными огурцами и сливками.",
                         "ar": "تُقدّم مع تونة معلبة (50/75/165 جرام)، ذرة حلوة، مخللات، وكريمة."
+                    }
+                },
+                "kavurmali": {
+                    "name": {
+                        "tr": "KAVURMALI",
+                        "en": "SLOW COOKED MEAT",
+                        "ru": "ЖАРЕНЫЙ",
+                        "ar": "مقلي"
+                    },
+                    "small": "kavurma_small",
+                    "medium": "kavurma_medium",
+                    "additional": "kavurma_additional",
+                    "image": "",
+                    "description": {
+                        "tr": "50/75/100 gr. Özel Rize Kavurması, Biber, Mantar ve Krema ile servis edilir.",
+                        "en": "50/75/100 gr. Special Rize Slow Cooked Meat, served with peppers, mushrooms, and cream.",
+                        "ru": "50/75/100 gr. Специальный ризский кавур, подается с перцем, грибами и сливками.",
+                        "ar": "50/75/100 غرام من لحم البقر المشوي الخاص، يقدم مع الفلفل والفطر والقشدة."
                     }
                 }
             }
@@ -366,24 +385,6 @@
                 }
             },
             "products": {
-                "kiymali": {
-                    "name": {
-                        "tr": "Kıymalı",
-                        "en": "MINCED MEAT",
-                        "ru": "МЯСОМ",
-                        "ar": "لحم مفروم"
-                    },
-                    "small": "ravioli_ucuz_small",
-                    "medium": "ravioli_ucuz_medium",
-                    "additional": "ravioli_ucuz_additional",
-                    "image": "",
-                    "description": {
-                        "tr": "Kıyma, Panko ve baharatlar ile servis edilir.",
-                        "en": "Served with minced meat, panko, and spices.",
-                        "ru": "Подается с мясным фаршем, панко и специями.",
-                        "ar": "تُقدّم مع لحم مفروم، بانكو، وتوابل."
-                    }
-                },
                 "ispanakli_peynirli": {
                     "name": {
                         "tr": "Ispanaklı Peynirli",
@@ -418,6 +419,24 @@
                         "en": "Served with Potato, Chestnut Mushrooms, Caramelized Onion, and Spices.",
                         "ru": "Подается с картошкой, каштановыми грибами, карамелизированным луком и специями.",
                         "ar": "تُقدّم مع بطاطس، فطر الكستناء، بصل مكرمل، وتوابل."
+                    }
+                },
+                "kiymali": {
+                    "name": {
+                        "tr": "Kıymalı",
+                        "en": "MINCED MEAT",
+                        "ru": "МЯСОМ",
+                        "ar": "لحم مفروم"
+                    },
+                    "small": "ravioli_pahali_small",
+                    "medium": "ravioli_pahali_medium",
+                    "additional": "ravioli_pahali_additional",
+                    "image": "",
+                    "description": {
+                        "tr": "Kıyma, Panko ve baharatlar ile servis edilir.",
+                        "en": "Served with minced meat, panko, and spices.",
+                        "ru": "Подается с мясным фаршем, панко и специями.",
+                        "ar": "تُقدّم مع لحم مفروم، بانكو، وتوابل."
                     }
                 }
             }
@@ -986,6 +1005,17 @@
                     "portion": "limonata",
                     "image": "",
                     "description": ""
+                },
+                "uzum": {
+                    "name": {
+                        "tr": "DOĞAL ÜZÜM ŞIRASI (330 ml)",
+                        "en": "NATURAL GRAPE JUICE (330 ml)",
+                        "ru": "Натуральный виноградный сок (330 мл)",
+                        "ar": "عصير العنب الطبيعي"
+                    },
+                    "portion": "uzum",
+                    "image": "",
+                    "description": ""
                 }
             }
         },
@@ -1004,17 +1034,6 @@
                 }
             },
             "products": {
-                "cay": {
-                    "name": {
-                        "tr": "ÇAY",
-                        "en": "TEA",
-                        "ru": "ЧАЙ",
-                        "ar": "شاي"
-                    },
-                    "portion": "cay",
-                    "image": "",
-                    "description": ""
-                },
                 "turk_kahvesi": {
                     "name": {
                         "tr": "TÜRK KAHVESİ",
