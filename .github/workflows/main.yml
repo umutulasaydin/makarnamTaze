@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Or whatever branch you want to trigger the deployment
+  workflow_dispatch: 
 
 jobs:
   deploy:
